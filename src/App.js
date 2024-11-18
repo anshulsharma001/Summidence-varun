@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Unlikely from './Components/Unlikely';
 import Getyourcopy from './Components/Getyourcopy';
 import Jason from './Components/Jason';
+import Current from './Components/Current';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Unlikely/>
     <Getyourcopy/>
     <Jason/>
+    <Current/>
     </>
   );
 }
