@@ -1,38 +1,193 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.ff_Poppins {
+  font-family: "Poppins";
+}
+.ff_Jakarta {
+  font-family: "Plus Jakarta Sans" !important;
+}
+.fs_20 {
+  font-size: 14px;
+}
+.fs_24 {
+  font-size: 14px;
+}
+.fs_32 {
+  font-size: 32px;
+}
+.fs_40 {
+  font-size: 14px;
+}
+.fs_64 {
+  font-size: 28px;
+}
+.fs_72 {
+  font-size: 28px;
+}
+.lh_55 {
+  line-height: 55%;
+}
+.lh_118 {
+  line-height: 118%;
+}
+.lh_125 {
+  line-height: 125%;
+}
+.lh_132 {
+  line-height: 132%;
+}
+.lh_140{
+  line-height: 140%;
+}
+.lh_158 {
+  line-height: 158%;
+}
+.lh_175 {
+  line-height: 175%;
+}
+.common_clr_blue {
+  color: #0c135c;
+}
+.common_clr_black {
+  color: #000000;
+}
+.text_clr_light_grey {
+  color: #999999;
+}
+.mt_68 {
+  margin-top: 20px;
+}
+.space_jason{
+  margin-top: 98px;
+  margin-bottom: 115px;
+}
+.common_bttn {
+  padding: 8px 24px;
+  background: #f7931f;
+  border: none;
+  border-radius: 94px;
+}
+.common_card {
+  width: 428px;
+  height: 792px;
+  padding: 20px 24px;
+  background: #0c135c;
+}
+.header_img {
+  max-width: 872px !important;
+  height: 304px !important;
+  border-radius: 47px;
+}
+.common_underline::after {
+  position: absolute;
+  content: "";
+  width: 100%; /* Set the width to 100% to make it permanent */
+  height: 4px;
+  bottom: 0px;
+  right: 0;
+  display: block;
+  background-color: #0c135c;
+}
+.common_underline::after {
+  position: absolute;
+  content: "";
+  width: 100%; /* Set the width to 85% to make it permanent */
+  height: 4px;
+  bottom: 0px;
+  right: 0;
+  display: block;
+  background-color: #0c135c;
+}
+.card_common_img {
+  width: 382px;
+  height: 338px;
+}
+.video {
+  width: 100%;
+  max-width: 527px;
+  border-radius: 34px;
+}
+.bg_current{
+  background-color: #0C135C;
+}
+@media (min-width: 768px) {
+  .fs_72 {
+    font-size: 36px;
+  }
+  .fs_24 {
+    font-size: 14px;
+  }
+  .fs_20 {
+    font-size: 14px;
+  }
+  .common_bttn {
+    padding: 6px 20px;
+  }
+  .header_img {
+    height: 404px !important;
+    max-width: 450px !important;
+  }
+  .img_unlikely {
+    width: 50% !important;
+  }
+  .fs_64 {
+    font-size: 36px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 1024px) {
+  .fs_72 {
+    font-size: 46px;
   }
-  to {
-    transform: rotate(360deg);
+  .fs_64 {
+    font-size: 46px;
+  }
+  .fs_40 {
+    font-size: 26px;
+  }
+  .fs_24 {
+    font-size: 16px;
+  }
+  .common_bttn {
+    padding: 6px 26px;
+  }
+  .fs_20 {
+    font-size: 16px;
+  }
+  .header_img {
+    border-radius: 47px;
+  }
+  .img_unlikely {
+    width: 100% !important;
+  }
+  .mt_68 {
+    margin-top: 28px;
+  }
+}
+@media (min-width: 1440px) {
+  .fs_72 {
+    font-size: 72px;
+  }
+  .fs_64 {
+    font-size: 64px;
+  }
+  .fs_40 {
+    font-size: 40px;
+  }
+  .fs_24 {
+    font-size: 24px;
+  }
+  .fs_20 {
+    font-size: 20px;
+  }
+  .mt_68 {
+    margin-top: 68px;
   }
 }
