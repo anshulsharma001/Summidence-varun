@@ -7,7 +7,7 @@ import image_three from "../assets/img/webp/image-4 (1).webp";
 const Getyourcopy = () => {
   return (
     <>
-    <Container className='mt-5'>
+    <Container className='space_get'>
         <Row>
             <Col lg={4}>
             <div className='common_card'>

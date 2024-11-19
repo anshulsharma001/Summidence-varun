@@ -6,7 +6,7 @@ const Unlikely = () => {
   return (
     <>
 <Container>
-    <div className='mt-4 mt-md-5 text-center'>
+    <div className='space_unlikely text-center text-lg-start'>
         <h2 className='ff_Jakarta fw-bold fs_64 lh_55 common_clr_blue mb-md-5'><span className='position-relative common_underline'>UNLIKELY</span></h2>
         <p className='ff_Jakarta fw-bold fs_40 lh_132 common_clr_black mb-0 mt-4'>The surprising personal story behind the garage startup that became a $100m national health brand.</p>
     </div>
