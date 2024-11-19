@@ -9,12 +9,9 @@ const Footer = () => {
       <Container>
         <Row className="space_row">
           <Col md={4}>
-          <div>
-            <img className="w-50 h-50" src={footer_img} alt="" />
             <div>
-                <Icon/>
+              <img className="w-50 h-50" src={footer_img} alt="" />
             </div>
-          </div>
           </Col>
         </Row>
       </Container>
