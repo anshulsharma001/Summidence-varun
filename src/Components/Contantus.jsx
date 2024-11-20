@@ -56,17 +56,21 @@ const Contactus = () => {
 
   return (
     <Container className="space_contact">
-      <Row className="row_bg pb-5 pb-lg-0">
+      <Row className="row_bg pb-5 pb-lg-0 row_border">
         <Col lg={6} className="p-0 pe-lg-3">
-          <img className="w-100 h-100" src={contact_image} alt="Contact" />
+          <img
+            className="w-100 h-100 contact_img_rds"
+            src={contact_image}
+            alt="Contact"
+          />
         </Col>
-        <Col lg={6} className="text-center text-lg-start pb-lg-5">
-          <h2 className="ff_Jakarta fw-semibold fs_64 lh_175 text-white mb-0">
+        <Col lg={6} className="text-center text-lg-start pb-lg-5 mt-4">
+          <h2 className="ff_Jakarta fw-semibold fs_36 lh_175 text-white mb-0">
             Contact Us
           </h2>
-          <p className="ff_Jakarta fw-medium fs_32 lh_132 text-white mb-0">
-            Feel free to contact us anytime. We will get back to you as soon as
-            we can.
+          <p className="ff_Jakarta fw-light fs_16 lh_132 text-white mt-2 mb-0">
+            Feel free to contact us anytime. We will get back to you
+            <span className="d-block">as soon as we can.</span>
           </p>
           <Form onSubmit={handleSubmit} className="mt-5 pt-1">
             <Form.Group controlId="name">
