@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import header_img from "../assets/img/webp/image (1).webp";
-import logo from "../assets/img/webp/footer-logo.png";
+import header_img from "../../assets/img/webp/image (1).webp";
+import logo from "../../assets/img/webp/footer-logo.png";
 import{ Link, NavLink} from 'react-router-dom'
 
 const Header = () => {
@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li className="mb-0">
               <a
-                href="school"
+                href="/school"
                 className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
               >
                 School

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-import slider_one from "../assets/img/webp/slider-1.png";
+import slider_one from "../../assets/img/webp/slider-1.png";
 
 const Testimonials = () => {
   return (
