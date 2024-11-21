@@ -47,6 +47,9 @@
 .fs_56 {
   font-size: 28px;
 }
+.fs_72{
+  font-size: 72px;
+}
 .lh_55 {
   line-height: 55%;
 }
@@ -290,6 +293,14 @@
 }
 .menuicon.cross:nth-child(3) {
   transform: rotate(-45deg) translate(11px, -12px);
+}
+/* aboutus-css */
+.bg_about_us{
+  background-color: #0C135C;
+}
+.space_aboutus{
+  padding-top: 136px;
+  padding-bottom: 198px;
 }
 @media (max-width: 1022px) {
   nav ul {
