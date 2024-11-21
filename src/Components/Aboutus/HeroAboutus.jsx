@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-const Aboutus = () => {
+const HeroAboutus = () => {
   return (
     <div className="bg_about_us">
       <Container className="space_aboutus">
@@ -11,14 +11,14 @@ const Aboutus = () => {
           </p>
           <h1 className=" ff_Poppins fw-normal fs_72 lh_122 text-white mt-4 mb-0">
             Our vision is to make work
-            <span className="d-block">inspiring and fulfilling</span>
+            <span className="d-lg-block">inspiring and fulfilling</span>
           </h1>
           <p className=" ff_Poppins fw-light fs_22 lh_118 text-white mb-0 mt-4">
             HRLInk is a cloud-based HR system designed to simplify and
-            <span className="d-block">
+            <span className="d-lg-block">
               streamline HR processes. Grove HR is a powerful tool that can help
             </span>
-            <span className="d-block">
+            <span className="d-lg-block">
               SMB businesses manage their HR operations with ease.
             </span>
           </p>
@@ -28,4 +28,4 @@ const Aboutus = () => {
   );
 };
 
-export default Aboutus;
+export default HeroAboutus;

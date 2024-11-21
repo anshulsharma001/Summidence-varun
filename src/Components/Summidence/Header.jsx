@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import header_img from "../assets/img/webp/image (1).webp";
-import logo from "../assets/img/webp/footer-logo.png";
+import header_img from "../../assets/img/webp/image (1).webp";
+import logo from "../../assets/img/webp/footer-logo.png";
 import{ Link, NavLink} from 'react-router-dom'
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
       <nav className="z-3 custom_container d-flex justify-content-between align-items-center">
         <div className="d-flex align-items-center w-100 justify-content-between">
           {/* Logo */}
-          <a href="" className="d-flex align-items-center">
+          <a href="/" className="d-flex align-items-center">
             <img className="w-25" src={logo} alt="Logo" />
           </a>
 
@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li className="mb-0">
               <a
-                href="#Ibo"
+                href="/school"
                 className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
               >
                 School
@@ -48,7 +48,7 @@ const Header = () => {
             </li>
             <li className="mb-0">
               <a
-                href="#Eefi"
+                href="about-us"
                 className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
               >
                 About us

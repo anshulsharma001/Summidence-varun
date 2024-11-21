@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-import contact_image from "../assets/img/webp/contact-image.png";
+import contact_image from "../../assets/img/webp/contact-image.png";
 
 const Contactus = () => {
   const [formData, setFormData] = useState({

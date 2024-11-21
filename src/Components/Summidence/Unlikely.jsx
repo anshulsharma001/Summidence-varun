@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Unlikely_img from "../assets/img/webp/image-2 (1).webp";
+import Unlikely_img from "../../assets/img/webp/image-2 (1).webp";
 
 const Unlikely = () => {
   return (

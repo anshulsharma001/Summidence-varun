@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import image_one from "../assets/img/webp/Group-8 (1).webp";
-import image_two from "../assets/img/webp/image.webp";
-import image_three from "../assets/img/webp/image-4 (1).webp";
+import image_one from "../../assets/img/webp/Group-8 (1).webp";
+import image_two from "../../assets/img/webp/image.webp";
+import image_three from "../../assets/img/webp/image-4 (1).webp";
 
 const Getyourcopy = () => {
   return (

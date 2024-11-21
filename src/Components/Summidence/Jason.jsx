@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import video_one from "../assets/img/video/0621 2MC Tail Wagging the Dog.mp4";
+import video_one from "../../assets/img/video/0621 2MC Tail Wagging the Dog.mp4";
 
 const Jason = () => {
   return (

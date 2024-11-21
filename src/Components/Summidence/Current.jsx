@@ -4,16 +4,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-import img_one from "../assets/img/webp/1.png";
-import img_two from "../assets/img/webp/2.png";
-import img_three from "../assets/img/webp/3.png";
-import img_four from "../assets/img/webp/4.png";
-import img_five from "../assets/img/webp/5.png";
-import img_six from "../assets/img/webp/6.png";
-import img_seven from "../assets/img/webp/7.png";
-import img_eight from "../assets/img/webp/8.png";
-import img_nine from "../assets/img/webp/9.png";
-import img_ten from "../assets/img/webp/10.png";
+import img_one from "../../assets/img/webp/1.png";
+import img_two from "../../assets/img/webp/2.png";
+import img_three from "../../assets/img/webp/3.png";
+import img_four from "../../assets/img/webp/4.png";
+import img_five from "../../assets/img/webp/5.png";
+import img_six from "../../assets/img/webp/6.png";
+import img_seven from "../../assets/img/webp/7.png";
+import img_eight from "../../assets/img/webp/8.png";
+import img_nine from "../../assets/img/webp/9.png";
+import img_ten from "../../assets/img/webp/10.png";
 
 const Current = () => {
   return (
