@@ -47,7 +47,7 @@
 .fs_56 {
   font-size: 28px;
 }
-.fs_72{
+.fs_72 {
   font-size: 72px;
 }
 .lh_55 {
@@ -91,6 +91,9 @@
 }
 .common_clr_black {
   color: #000000;
+}
+.color_green {
+  color: #1bb55c;
 }
 .txt_clr_orange {
   color: #f7931f;
@@ -300,23 +303,23 @@
 /* ===============================          SCHOOL             ================================ */
 /* ///////////////////////////////////////////////////////////////////.        DO YOU.         ////////////////////////////////////////////////////////////////////// */
 .py-do-you {
-  padding: 145px 0;
+  padding: 60px 0;
 }
 .do_you_bttn {
   border-radius: 60px;
   background-color: #f7931f;
-  padding: 16.5px 37px;
+  padding: 12px 37px;
   box-shadow: 0px 4px 4px 0px #00000040 inset;
 }
 .gap_padding_btn_do_you {
   gap: 20px;
-  padding-top: 31px;
+  padding-top: 16px;
 }
 .max_w_590 {
   max-width: 590px;
 }
 .gap_do_you_image {
-  gap: 31px;
+  gap: 16px;
 }
 .single_girl {
   max-width: 255px;
@@ -327,7 +330,7 @@
   max-height: 292px;
 }
 .baby_boy {
-  max-width: 285px;
+  max-width: 215px;
   max-height: 326px;
 }
 .drawing_children {
@@ -335,20 +338,67 @@
   max-height: 214px;
 }
 .image_box {
-  padding: 32px 53px 34px 53px;
+  padding: 12px 20px;
   background-color: #ffbb12;
   box-shadow: 0px 4px 4px 0px #00000040 inset;
   border-radius: 20px;
+  left: 22%;
+  top: 22%;
+  transform: translateY(0%);
 }
 .do_you_dashed_btn {
   border-radius: 60px;
-  padding: 16.5px 52px;
-  border: 2px dashed #474b71;}
-/* aboutus-css */
-.bg_about_us{
-  background-color: #0C135C;
+  padding: 12px 52px;
+  border: 2px dashed #474b71;
 }
-.space_aboutus{
+.get_started_button {
+  padding: 8px 16px;
+  background-color: #0e4da4;
+  border-radius: 30px;
+}
+/* ///////////////////////////////////////////////////////////////////.        OUR CORE VALUE        ////////////////////////////////////////////////////////////////////// */
+.opacity_60 {
+  opacity: 60;
+}
+.gap_btn_core_value {
+  gap: 16px;
+}
+.core_value_btn {
+  background-color: #f7931f;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 110px;
+  max-width: 350px;
+  padding: 16px;
+}
+.right_logo{
+height: 30px;
+width: 30px;
+}
+/* ///////////////////////////////////////////////////////////////////.        ABOUT OUR SCHOOL       ////////////////////////////////////////////////////////////////////// */
+.about_our_school_img{
+max-width: 466px;
+max-height: 497px;
+}
+.max_w_810{
+  max-width: 810px;
+}
+.gap_about_student{
+  gap: 24px;
+}
+.bottom_line::after{
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 5px;
+  left: 0;
+  bottom: -10%;
+  background-color: #F7931F;
+}
+/* aboutus-css */
+.bg_about_us {
+  background-color: #0c135c;
+}
+.space_aboutus {
   padding-top: 136px;
   padding-bottom: 198px;
 }
@@ -380,9 +430,53 @@
     z-index: 11;
   }
 }
+@media (min-width: 576px) {
+  .image_box {
+    padding: 16px 35px;
+  }
+  .gap_btn_core_value {
+    gap: 24px;
+  }
+  .core_value_btn {
+    padding: 20px;
+  }
+  .py-do-you {
+    padding: 80px 0;
+  }
+  .do_you_dashed_btn {
+    padding: 16.5px 52px;
+  }
+  .gap_padding_btn_do_you {
+    gap: 12px;
+    padding-top: 30px;
+  }
+  .do_you_bttn {
+    padding: 16.5px 37px;
+  }
+  .image_box {
+    left: 25%;
+    top: 25%;
+  }
+  .get_started_button {
+    padding: 13px 32px;
+    border-radius: 60px;
+  }
+}
 @media (min-width: 768px) {
   .fs_16 {
     font-size: 16px;
+  }
+  .core_value_btn {
+    padding: 24px 23px 20px 43px;
+  }
+  .py-do-you {
+    padding: 100px 0;
+  }
+  .baby_boy {
+    max-width: 285px;
+  }
+  .gap_do_you_image {
+    gap: 31px;
   }
   .card_img_rds {
     min-height: 339px;
@@ -452,9 +546,24 @@
     font-size: 36px;
   }
 }
+@media (min-width:992px) {
+  .gap_btn_core_value {
+    gap: 42px;
+  }
+}
 @media (min-width: 1024px) {
   .fs_32 {
     font-size: 26px;
+  }
+  .right_logo{
+    height: 50px;
+    width: 50px;
+    }
+  .py-do-you {
+    padding: 145px 0;
+  }
+  .image_box {
+    padding: 32px 53px 34px 53px;
   }
   .space_row {
     padding-top: 58px;
@@ -512,6 +621,11 @@
   }
   .mt_90 {
     margin-top: 28px;
+  }
+}
+@media (min-width:1200px) {
+  .gap_about_student{
+    gap: 55px;
   }
 }
 @media (min-width: 1320px) {
