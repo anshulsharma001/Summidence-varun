@@ -83,6 +83,9 @@
 .common_clr_blue {
   color: #0c135c;
 }
+.bg-common_clr_blue{
+  background-color: #0c135c;
+}
 .common_clr_black {
   color: #000000;
 }
@@ -290,6 +293,11 @@
 }
 .menuicon.cross:nth-child(3) {
   transform: rotate(-45deg) translate(11px, -12px);
+}
+/* ===============================          SCHOOL             ================================ */
+/* ///////////////////////////////////////////////////////////////////.        DO YOU.         ////////////////////////////////////////////////////////////////////// */
+.py-do-you{
+  padding: 145px 0;
 }
 @media (max-width: 1022px) {
   nav ul {

@@ -8,18 +8,20 @@ import Current from "./Components/Current";
 import Testimonials from "./Components/Testimonials";
 import Contantus from "./Components/Contantus";
 import Footer from "./Components/Footer";
+import DoYou from "./Components/school/DoYou";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Unlikely />
       <Getyourcopy />
       <Jason />
       <Current />
       <Testimonials />
       <Contantus />
-      <Footer />
+      <Footer /> */}
+      <DoYou/>
     </>
   );
 }
