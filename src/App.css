@@ -302,6 +302,12 @@
   padding-top: 136px;
   padding-bottom: 198px;
 }
+.img_card{
+  width: 100%;
+  max-width: 382px;
+  height: 100%;
+  min-height: 465px;
+}
 @media (max-width: 1022px) {
   nav ul {
     display: flex;
