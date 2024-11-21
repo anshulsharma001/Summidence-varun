@@ -5,7 +5,7 @@ import img_two from "../../assets/img/Aboutus/Png/Rectangle 1.png";
 
 const Introduction = () => {
   return (
-    <div className="space_intro">
+    <div className="space_introduction">
       <Container className="position-relative">
         <Row className="d-flex justify-content-center align-items-center">
           <Col xl={6} className="text-center  text-xl-start">
