@@ -34,4 +34,3 @@ export const Right_logo = () => {
     </svg>           
   );
 };
-

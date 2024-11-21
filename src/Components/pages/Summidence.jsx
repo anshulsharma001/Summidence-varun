@@ -6,19 +6,18 @@ import Jason from '../Summidence/Jason'
 import Current from '../Summidence/Current'
 import Testimonials from '../Summidence/Testimonials'
 import Contantus from '../Summidence/Contantus'
-import Footer from '../Summidence/Footer'
+import Footer from '../common/Footer'
 
 const Summidence = () => {
   return (
     <div>
-        <Header/>
-        <Unlikely/>
-        <Getyourcopy/>
-        <Jason/>
-        <Current/>
-        <Testimonials/>
-        <Contantus/>
-        <Footer/>
+      <Header />
+      <Unlikely />
+      <Getyourcopy />
+      <Jason />
+      <Current />
+      <Testimonials />
+      <Contantus />
     </div>
   )
 }

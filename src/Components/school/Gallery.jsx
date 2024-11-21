@@ -15,46 +15,56 @@ const Gallery = () => {
           <h2 className=" ff_Poppins fs_56 fw-bold lh_125 common_clr_blue mb-0">
             Gallery
           </h2>
-          <div className="space_img_gallery mb-md-3">
-            <div className="d-md-flex justify-content-between mb-2">
+          <div className="space_img_gallery pb-md-3">
+            <div className="row justify-content-between mb-2">
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery me-auto d-flex"
                 src={img_one}
                 alt=""
               />
+              </div>
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery mx-auto d-flex"
                 src={img_two}
                 alt=""
               />
+              </div>
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery ms-auto d-flex"
                 src={img_three}
                 alt=""
               />
-            </div>
-            <div className="d-md-flex justify-content-between mt-md-3">
+              </div>
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery me-auto d-flex"
                 src={img_four}
                 alt=""
               />
+              </div>
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery mx-auto d-flex"
                 src={img_five}
                 alt=""
               />
+              </div>
+              <div className="col-md-4 col-6 mt-3">
               <img
-                className="w-100 h-100 img_gallery mt-3 mt-md-0"
+                className="w-100 h-100 img_gallery ms-auto d-flex"
                 src={img_six}
                 alt=""
               />
+              </div>
+              </div>
             </div>
           </div>
-          <button className="do_you_bttn ff_Poppins fw-medium fs_18 text-white lh_118 border-0 mt-4">
+          <button className="do_you_bttn mx-auto d-flex ff_Poppins fw-medium fs_18 text-white lh_118 border-0 mt-4">
             See More
           </button>
-        </div>
       </Container>
     </div>
   );

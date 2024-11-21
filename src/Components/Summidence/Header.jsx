@@ -1,85 +1,11 @@
-import React, { useState } from "react";
+import React  from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import header_img from "../../assets/img/webp/image (1).webp";
-import logo from "../../assets/img/webp/footer-logo.png";
-import{ Link, NavLink} from 'react-router-dom'
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false); // Track the menu state
-  const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the state when the menu icon is clicked
-    if (!isOpen) {
-      document.body.classList.add("overflow-hidden"); // Prevent body scroll when menu is open
-    } else {
-      document.body.classList.remove("overflow-hidden"); // Allow body scroll when menu is closed
-    }
-  };
 
   return (
     <>
-      <nav className="z-3 custom_container d-flex justify-content-between align-items-center">
-        <div className="d-flex align-items-center w-100 justify-content-between">
-          {/* Logo */}
-          <a href="/" className="d-flex align-items-center">
-            <img className="w-25" src={logo} alt="Logo" />
-          </a>
-
-          {/* Navigation Links */}
-          <ul
-            className={`d-flex flex-lg-row flex-column align-items-center mb-0 p-0 ${
-              isOpen ? "open" : ""
-            } gap-3 gap-lg-5 w-100`}
-          >
-            <li className="mb-0">
-              <a
-                href="#About"
-                className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
-              >
-                Kids
-              </a>
-            </li>
-            <li className="mb-0">
-              <a
-                href="/school"
-                className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
-              >
-                School
-              </a>
-            </li>
-            <li className="mb-0">
-              <a
-                href="about-us"
-                className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
-              >
-                About us
-              </a>
-            </li>
-            <li className="mb-0">
-              <a
-                href="#Team"
-                className="ff_Raleway fs_16 fw_500 text-black position-relative headline"
-              >
-                Business
-              </a>
-            </li>
-            <li>
-              <button className="common_bttn color-1 ff_Raleway fw_500 fs_16">
-                Let’s connect
-              </button>
-            </li>
-          </ul>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="open d-block d-lg-none navicon"
-            onClick={toggleMenu}
-          >
-            <div className={`menuicon ${isOpen ? "cross" : ""}`}></div>
-            <div className={`menuicon my-2 ${isOpen ? "cross" : ""}`}></div>
-            <div className={`menuicon ${isOpen ? "cross" : ""}`}></div>
-          </button>
-        </div>
-      </nav>
       <Container className="mt_90 p-xl-0">
         <Row className="p-xl-0 align-items-center text-center text-lg-start">
           <Col lg={6} className="p-xl-0">
