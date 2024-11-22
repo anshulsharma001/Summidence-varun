@@ -7,6 +7,7 @@ import Aboutus from "./Components/pages/Aboutus";
 import Footer from "./Components/common/Footer";
 import Navbar from "./Components/common/Navbar";
 import Business from "./Components/pages/Business";
+import Kids from "./Components/pages/Kids";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/school" element={<School />} />
         <Route path="/about-us" element={<Aboutus />} />
         <Route path="/Business" element={<Business />} />
+        <Route path="/kids" element={<Kids />} />
       </Routes>
       <Footer />
     </>

@@ -28,7 +28,7 @@ const Navbar = () => {
             <li className="mb-0 list-unstyled">
               <a
                 onClick={toggleMenu}
-                href="#About"
+                href="/kids"
                 className=" ff_Poppins fw-medium position-relative nav_link"
               >
                 Kids

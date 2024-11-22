@@ -2,7 +2,7 @@ import React from "react";
 import about_our_school from "../../assets/img/webp/about-our-school.png";
 const AboutOurSchool = () => {
   return (
-    <div className="py-5 my-5">
+    <div className="py-5 my-lg-5 my-md-3 my-sm-2">
       <div className="container custom_container">
         <div className="row align-items-center">
           <div className="col-xl-4 col-12">
