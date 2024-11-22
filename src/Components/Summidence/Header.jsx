@@ -1,9 +1,8 @@
-import React  from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import header_img from "../../assets/img/webp/image (1).webp";
 
 const Header = () => {
-
   return (
     <>
       <Container className="mt_90 p-xl-0">

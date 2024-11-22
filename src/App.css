@@ -110,8 +110,8 @@
   margin-top: 20px;
 }
 /* //////////////////////////////////////////////////.                NAVBAR              //////////////////////////////////////////////// */
-.navbar_logo{
-  max-width: 344px;
+.navbar_logo {
+  max-width: 150px;
   max-height: 87px;
 }
 .nav_link{
@@ -493,6 +493,36 @@ max-height: 497px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+/*****************************************************************************  Business-css   *********************************************************************/
+.Book_btn {
+  background-color: #ff7b3a;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 55px;
+}
+.space_home{
+  padding: 40px 0;
+}
+.text_clr_grey{
+  color: #9090A7;
+}
+.card_how {
+  max-width: 395px;
+  min-height: 308px;
+  border: 1px solid #060640;
+  border-radius: 14px;
+  padding: 25px;
+}
+.sapce_how_business{
+  padding: 40px 0;
+}
+.card_img_about_us {
+  bottom: -30%;
+  left: 7%;
+}
+.space_about_us{
+  padding-bottom: 70px;
+}
 @media (max-width: 1023.9px) {
   nav ul {
     display: flex;
@@ -560,6 +590,26 @@ max-height: 497px;
   }
 }
 @media (min-width: 768px) {
+  .card_img_about_us {
+    bottom: -50%;
+    left: 10%;
+}
+  .space_about_us{
+    padding-bottom: 100px;
+  }
+  .sapce_how_business{
+    padding: 60px 0;
+  }
+  .space_home{
+    padding: 60px 0;
+  }
+  .Book_btn {
+    padding: 10px 35px;
+}
+  .navbar_logo {
+    max-width: 150px;
+    max-height: 87px;
+}
   .space_img_gallery{
     margin-top: 25px;
   }
@@ -681,6 +731,25 @@ max-height: 497px;
   }
 }
 @media (min-width: 1024px) {
+  .card_how {
+    max-width: 284px;
+}
+  .Book_btn {
+    padding: 10px 35px;
+}
+  .space_about_us{
+    padding-bottom: 138px;
+  }
+  .sapce_how_business{
+    padding: 90px 0;
+  }
+  .space_home{
+    padding: 90px 0;
+  }
+  .card_img_about_us {
+    bottom: -30%;
+    left: -22%;
+}
   .img_gallery {
     max-width: 300px;
     min-height: 260px;
@@ -787,6 +856,22 @@ max-height: 497px;
   }
 }
 @media (min-width: 1320px) {
+  .card_how {
+    max-width: 395px;
+}
+  .card_img_about_us {
+    bottom: -30%;
+    left: -35%;
+  }
+  .space_about_us{
+    padding-bottom: 138px;
+  }
+  .sapce_how_business{
+    padding: 100px 0;
+  }
+  .space_home{
+    padding: 130px 0;
+  }
   .img_gallery {
     max-width: 350px;
     min-height: 260px;

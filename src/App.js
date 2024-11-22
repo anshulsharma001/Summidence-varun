@@ -6,17 +6,19 @@ import School from "./Components/pages/School";
 import Aboutus from "./Components/pages/Aboutus";
 import Footer from "./Components/common/Footer";
 import Navbar from "./Components/common/Navbar";
+import Business from "./Components/pages/Business";
 
 function App() {
   return (
     <>
-<Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Summidence />} />
         <Route path="/school" element={<School />} />
         <Route path="/about-us" element={<Aboutus />} />
+        <Route path="/Business" element={<Business />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }
