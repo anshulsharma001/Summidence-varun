@@ -37,7 +37,7 @@ const Footer = () => {
           </Col>
           <Col lg={3} md={4} sm={5} className="d-flex justify-content-sm-between gap-4 mt-4 mt-lg-0 ">
             <ul className="p-0 m-0">
-              <li className="mb-0">
+              <li className="mb-0 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -45,7 +45,7 @@ const Footer = () => {
                   Jason’s Story
                 </a>
               </li>
-              <li className="mt-md-4 mt-3">
+              <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -53,7 +53,7 @@ const Footer = () => {
                   Speaking
                 </a>
               </li>
-              <li className="mt-md-4 mt-3">
+              <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -61,7 +61,7 @@ const Footer = () => {
                   Books
                 </a>
               </li>
-              <li className="mt-md-4 mt-3">
+              <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
             </ul>
             <ul className="m-0 p-0">
-              <li className="m-0 p-0">
+              <li className="m-0 p-0 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -79,7 +79,7 @@ const Footer = () => {
                   Mentorship
                 </a>
               </li>
-              <li className="m-0 p-0 mt-md-4 mt-3">
+              <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
@@ -87,7 +87,7 @@ const Footer = () => {
                   Media
                 </a>
               </li>
-              <li className="m-0 p-0 mt-md-4 mt-3">
+              <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
