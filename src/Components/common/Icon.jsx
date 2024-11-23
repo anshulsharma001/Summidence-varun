@@ -62,6 +62,13 @@ export const Right_logo = () => {
     </svg>
   );
 };
+export const Down_arrow = () => {
+  return (
+    <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.8785 16.2324L22.9547 0.884832H0.802357L11.8785 16.2324Z" fill="#F7931F"/>
+    </svg>    
+  );
+};
 export const Card_Box = () => {
   return (
     <svg

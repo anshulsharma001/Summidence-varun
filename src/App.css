@@ -106,6 +106,9 @@
 .bg_orange {
   background-color: #f7931f;
 }
+.color_light_black {
+  color: #7b7b7b;
+}
 .text_clr_light_grey {
   color: #999999;
 }
@@ -560,6 +563,61 @@
   max-width: 637px;
   max-height: 622px;
 }
+.nav_tab {
+  border-width: 1.07px, 1.07px, 1.07px, 1.07px;
+  border-style: solid;
+  border-color: #f7931f;
+  border-radius: 25.58px;
+  max-width: 571px;
+  margin-top: 31px;
+}
+.col_4 {
+  width: 33.33%;
+}
+.border_rIght {
+  border-right: 2.13px solid #f7931f;
+  padding: 12px 0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.down_arrow {
+  bottom: -22%;
+  left: 45%;
+}
+.active {
+  color: white;
+}
+.activetab {
+  background-color: #f7931f;
+}
+.down_arrow {
+  display: block; /* Show down arrow */
+}
+.d-none {
+  display: none; /* Hide down arrow */
+}
+.s2_tab {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+.s4_tab {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.tab-content {
+  border-radius: 26px;
+  background: linear-gradient(125.65deg, #fef5db 0.81%, #ffdfdf 100%);
+  padding: 30px;
+  margin-top: 32px;
+}
+.boy {
+  max-width: 505px;
+  max-height: 475px;
+}
+.max_w_360 {
+  max-width: 360px;
+}
 /* **********************************************************************      About-us    ************************************************************************************* */
 /* aboutus-css */
 .bg_about_us {
@@ -645,6 +703,12 @@
   .image_box {
     padding: 16px 35px;
   }
+  .tab-content {
+    padding: 40px;
+  }
+  .border_rIght {
+    padding: 18px 0;
+  }
   fs_64 {
     font-size: 40px;
   }
@@ -691,6 +755,10 @@
   .card_img_about_us {
     bottom: -50%;
     left: 10%;
+  }
+  .tab-content {
+    padding: 50px;
+    border-radius: 176.08px 26.41px 26.41px 26.41px;
   }
   fs_64 {
     font-size: 46px;
@@ -840,6 +908,9 @@
 @media (min-width: 992px) {
   .gap_btn_core_value {
     gap: 42px;
+  }
+  .tab-content {
+    padding: 84px 96px 200px 110px;
   }
   .bulb_small {
     top: -10%;

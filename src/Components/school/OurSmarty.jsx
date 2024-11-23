@@ -25,7 +25,7 @@ const OurSmarty = () => {
         <div className='pt-sm-4 pb-5 mb-lg-5 mb-md-3 mb-sm-2'>
             <div className="custom-container container">
                 <h3 className="ff_Poppins fw-bold text-center fs_48 lh_151 common_clr_blue mb-3">
-                    Our Smarty Program
+                    Our Smarty Program</h3>
                     <Row className="mt-lg-5 justify-content-center">
                     {preschoolData.map(item => (
                 <Col lg={4} sm={6} className='mt-md-4 mt-3 mt-lg-0'>
@@ -34,7 +34,6 @@ const OurSmarty = () => {
                 </Col>
             ))}
                     </Row>
-                </h3>
             </div>
         </div>
     )
