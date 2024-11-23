@@ -8,14 +8,14 @@ const DoYou = () => {
     <div className="bg-common_clr_blue py-do-you">
       <div className="custom_container container">
         <div className="row align-items-center">
-          <div className="col-lg-6 col-12">
+          <div className="col-lg-6 col-12 text-center text-md-start">
             <p className="fs_24 lh_140 fw-normal ff_Jakarta text-white mb-0">
               Do you need any help
             </p>
             <h2 className=" ff_Poppins fs_56 lh_151 fw-semibold text-white mb-0">
               A better learning Journey Future Start Here
             </h2>
-            <div className="d-flex align-items-center gap_padding_btn_do_you">
+            <div className="d-flex flex-column flex-md-row align-items-center gap_padding_btn_do_you">
               <button className="do_you_bttn  ff_Poppins fw-medium fs_18 text-white border-0">
                 Get started
               </button>

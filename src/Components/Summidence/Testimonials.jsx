@@ -49,9 +49,9 @@ const Testimonials = () => {
               },
             }}
             //   modules={[Autoplay, Pagination]} // Removed Navigation
-            className="mySwiper space_slider_testimonials"
+            className="mySwiper space_slider_testimonials "
           >
-            <SwiperSlide className="mb-5 mt-5">
+            <SwiperSlide className="mb-5 mt-5 swiper-slide-2">
               <div className="card_slider d-flex flex-column justify-content-center align-items-center position-relative">
                 <h2 className="ff_Jakarta fw-semibold fs_32 common_clr_black lh_77 mb-0">
                   Rev Dr Brain Birket
@@ -73,7 +73,7 @@ const Testimonials = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-5 mt-5">
+            <SwiperSlide className="mb-5 mt-5 swiper-slide-2">
               <div className="card_slider d-flex flex-column justify-content-center align-items-center position-relative">
                 <h2 className="ff_Jakarta fw-semibold fs_32 common_clr_black lh_77 mb-0">
                   Rev Dr Brain Birket
@@ -95,7 +95,7 @@ const Testimonials = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-5 mt-5">
+            <SwiperSlide className="mb-5 mt-5 swiper-slide-2">
               <div className="card_slider d-flex flex-column justify-content-center align-items-center position-relative">
                 <h2 className="ff_Jakarta fw-semibold fs_32 common_clr_black lh_77 mb-0">
                   Rev Dr Brain Birket
@@ -117,7 +117,7 @@ const Testimonials = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-5 mt-5">
+            <SwiperSlide className="mb-5 mt-5 swiper-slide-2">
               <div className="card_slider d-flex flex-column justify-content-center align-items-center position-relative">
                 <h2 className="ff_Jakarta fw-semibold fs_32 common_clr_black lh_77 mb-0">
                   Rev Dr Brain Birket
@@ -139,7 +139,7 @@ const Testimonials = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="mb-5 mt-5">
+            <SwiperSlide className="mb-5 mt-5 swiper-slide-2">
               <div className="card_slider d-flex flex-column justify-content-center align-items-center position-relative">
                 <h2 className="ff_Jakarta fw-semibold fs_32 common_clr_black lh_77 mb-0">
                   Rev Dr Brain Birket

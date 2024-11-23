@@ -16,6 +16,9 @@
 .fs_14 {
   font-size: 14px;
 }
+.fs_15{
+  font-size: 12px;
+}
 .fs_16 {
   font-size: 14px;
 }
@@ -44,10 +47,13 @@
   font-size: 14px;
 }
 .fs_48 {
-  font-size: 27px;
+  font-size: 26px;
 }
 .fs_56 {
   font-size: 28px;
+}
+.fs_62{
+  font-size: 30px;
 }
 .fs_72 {
   font-size: 22px;
@@ -752,6 +758,12 @@
   }
 }
 @media (min-width: 768px) {
+  .fs_62{
+    font-size: 64px;
+  }
+  .fs_15{
+    font-size: 14px;
+  }
   .card_img_about_us {
     bottom: -50%;
     left: 10%;
@@ -760,7 +772,7 @@
     padding: 50px;
     border-radius: 176.08px 26.41px 26.41px 26.41px;
   }
-  fs_64 {
+  .fs_64 {
     font-size: 46px;
   }
   .bulb_small {
@@ -927,6 +939,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .tab-content {
+    padding: 54px 50px 30px 88px;
+}
   .card_how {
     max-width: 284px;
   }
@@ -966,7 +981,7 @@
   }
   .space_introduction {
     margin-top: 90px;
-    margin-bottom: 245px;
+    margin-bottom: 120px;
   }
   .space_aboutus {
     padding-top: 90px;
@@ -1059,6 +1074,16 @@
   }
 }
 @media (min-width: 1320px) {
+  .space_introduction {
+    margin-top: 90px;
+    margin-bottom: 245px;
+  }
+  .tab-content {
+    padding: 84px 96px 200px 110px;
+  }
+  .swiper-slide-2{
+    width: 512.444px !important;
+  }
   .card_how {
     max-width: 395px;
   }
@@ -1079,7 +1104,7 @@
     padding: 130px 0;
   }
   .img_gallery {
-    max-width: 350px;
+    max-width: 390px;
     min-height: 260px;
   }
   .space_img_gallery {
@@ -1100,7 +1125,7 @@
   .Card_intro_two {
     width: 100%;
     max-width: 382px;
-    right: -5%;
+    right: -4%;
     top: -10%;
   }
   .space_aboutus {
