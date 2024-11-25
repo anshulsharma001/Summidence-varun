@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import contact_image from "../../assets/img/webp/contact-image.png";
 
-const Contactus = () => {
+const ContactBusiness = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
+    businessName: "",
     message: "",
   });
   const [error, setError] = useState("");
@@ -21,9 +22,15 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, phone, message } = formData;
+    const { name, email, phone, businessName, message } = formData;
 
-    if (!name.trim() || !email.trim() || !phone.trim() || !message.trim()) {
+    if (
+      !name.trim() ||
+      !email.trim() ||
+      !phone.trim() ||
+      !businessName.trim() ||
+      !message.trim()
+    ) {
       setError("Please fill out all fields.");
     } else if (!/^\d{10}$/.test(phone)) {
       setError("Please enter a valid 10-digit phone number.");
@@ -35,6 +42,7 @@ const Contactus = () => {
       form.append("name", name);
       form.append("email", email);
       form.append("phone", phone);
+      form.append("businessName", businessName);
       form.append("message", message);
 
       try {
@@ -47,7 +55,13 @@ const Contactus = () => {
           throw new Error("There was an issue submitting the form.");
         }
 
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          businessName: "",
+          message: "",
+        });
         alert("Message sent successfully!");
       } catch (err) {
         setError("Failed to send message. Please try again later.");
@@ -119,6 +133,18 @@ const Contactus = () => {
                 title="Please enter a valid 10-digit phone number."
               />
             </Form.Group>
+            <Form.Group controlId="businessName" className="mt-5">
+              <Form.Control
+                type="text"
+                name="businessName"
+                value={formData.businessName}
+                onChange={handleInputChange}
+                placeholder="Name of Business"
+                className="bg-transparent border-0 font-md fw-normal form_txt text-white form-control"
+                required
+                aria-label="Name of Business"
+              />
+            </Form.Group>
             <Form.Group controlId="message" className="mt-5">
               <Form.Control
                 as="textarea"
@@ -146,4 +172,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default ContactBusiness;

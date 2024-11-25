@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import contact_image from "../../assets/img/webp/contact-image.png";
 
-const Contactus = () => {
+const ContactKids = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
+    parentName: "",
+    kidsAge: "",
   });
   const [error, setError] = useState("");
 
@@ -21,12 +23,21 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, phone, message } = formData;
+    const { name, email, phone, message, parentName, kidsAge } = formData;
 
-    if (!name.trim() || !email.trim() || !phone.trim() || !message.trim()) {
+    if (
+      !name.trim() ||
+      !email.trim() ||
+      !phone.trim() ||
+      !message.trim() ||
+      !parentName.trim() ||
+      !kidsAge.trim()
+    ) {
       setError("Please fill out all fields.");
     } else if (!/^\d{10}$/.test(phone)) {
       setError("Please enter a valid 10-digit phone number.");
+    } else if (!/^\d+$/.test(kidsAge)) {
+      setError("Please enter a valid age for the kids.");
     } else {
       setError("");
 
@@ -36,6 +47,8 @@ const Contactus = () => {
       form.append("email", email);
       form.append("phone", phone);
       form.append("message", message);
+      form.append("parentName", parentName);
+      form.append("kidsAge", kidsAge);
 
       try {
         const response = await fetch("https://api.web3forms.com/submit", {
@@ -47,7 +60,14 @@ const Contactus = () => {
           throw new Error("There was an issue submitting the form.");
         }
 
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+          parentName: "",
+          kidsAge: "",
+        });
         alert("Message sent successfully!");
       } catch (err) {
         setError("Failed to send message. Please try again later.");
@@ -84,6 +104,30 @@ const Contactus = () => {
                 className="bg-transparent border-0 font-md fw-normal text-white form_txt form-control"
                 required
                 aria-label="Name"
+              />
+            </Form.Group>
+            <Form.Group controlId="parentName" className="mt-5">
+              <Form.Control
+                type="text"
+                name="parentName"
+                value={formData.parentName}
+                onChange={handleInputChange}
+                placeholder="Name of Parent"
+                className="bg-transparent border-0 font-md fw-normal text-white form_txt form-control"
+                required
+                aria-label="Name of Parent"
+              />
+            </Form.Group>
+            <Form.Group controlId="kidsAge" className="mt-5">
+              <Form.Control
+                type="number"
+                name="kidsAge"
+                value={formData.kidsAge}
+                onChange={handleInputChange}
+                placeholder="Age of Kids"
+                className="bg-transparent border-0 font-md fw-normal text-white form_txt form-control"
+                required
+                aria-label="Age of Kids"
               />
             </Form.Group>
             <Form.Group controlId="email" className="mt-5">
@@ -146,4 +190,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default ContactKids;

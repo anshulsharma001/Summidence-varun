@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import contact_image from "../../assets/img/webp/contact-image.png";
 
-const Contactus = () => {
+const ContactSchool = () => {
   const [formData, setFormData] = useState({
     name: "",
+    institute: "", // New field for "Name of Institute"
     email: "",
     phone: "",
     message: "",
@@ -21,9 +22,15 @@ const Contactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, phone, message } = formData;
+    const { name, institute, email, phone, message } = formData;
 
-    if (!name.trim() || !email.trim() || !phone.trim() || !message.trim()) {
+    if (
+      !name.trim() ||
+      !institute.trim() || // Check if "Name of Institute" is filled
+      !email.trim() ||
+      !phone.trim() ||
+      !message.trim()
+    ) {
       setError("Please fill out all fields.");
     } else if (!/^\d{10}$/.test(phone)) {
       setError("Please enter a valid 10-digit phone number.");
@@ -33,6 +40,7 @@ const Contactus = () => {
       const form = new FormData();
       form.append("access_key", "c66c76ec-d085-41d1-ba99-f70dfcfadda1"); // Replace with your actual Web3Forms access key
       form.append("name", name);
+      form.append("institute", institute); // Append the new field
       form.append("email", email);
       form.append("phone", phone);
       form.append("message", message);
@@ -47,7 +55,13 @@ const Contactus = () => {
           throw new Error("There was an issue submitting the form.");
         }
 
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({
+          name: "",
+          institute: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
         alert("Message sent successfully!");
       } catch (err) {
         setError("Failed to send message. Please try again later.");
@@ -84,6 +98,18 @@ const Contactus = () => {
                 className="bg-transparent border-0 font-md fw-normal text-white form_txt form-control"
                 required
                 aria-label="Name"
+              />
+            </Form.Group>
+            <Form.Group controlId="institute" className="mt-5">
+              <Form.Control
+                type="text"
+                name="institute"
+                value={formData.institute}
+                onChange={handleInputChange}
+                placeholder="Name of Institute"
+                className="bg-transparent border-0 font-md fw-normal text-white form_txt form-control"
+                required
+                aria-label="Name of Institute"
               />
             </Form.Group>
             <Form.Group controlId="email" className="mt-5">
@@ -146,4 +172,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default ContactSchool;

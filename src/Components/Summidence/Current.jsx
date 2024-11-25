@@ -18,7 +18,7 @@ import img_ten from "../../assets/img/webp/10.png";
 const Current = () => {
   return (
     <div className="bg_current space_current">
-      <Container className="">
+      <Container>
         <div className="text-center text-lg-start">
           <h2 className="ff_Poppins fw-semibold fs_48 lh_118 text-white">
             Current <span className="txt_clr_orange">Associations</span>
@@ -32,7 +32,7 @@ const Current = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        spaceBetween={80}
+        spaceBetween={5}
         slidesPerView={4.5}
         breakpoints={{
           // When the screen width is >= 320px
@@ -59,34 +59,54 @@ const Current = () => {
         modules={[Autoplay, Pagination]}
       >
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_one} alt="image1" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_one} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_two} alt="image2" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_two} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_three} alt="image3" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_three} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_four} alt="image4" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_four} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_five} alt="image5" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_five} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_six} alt="image6" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_six} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_seven} alt="image7" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_seven} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_eight} alt="image8" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_eight} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_nine} alt="image9" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_nine} alt="image1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-75 h-50" src={img_ten} alt="image10" />
+          <div className="slider-img-wrapper">
+            <img className="slider-img" src={img_ten} alt="image1" />
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

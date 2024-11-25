@@ -675,6 +675,21 @@
 .space_about_us {
   padding-bottom: 70px;
 }
+.slider-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Desired width */
+  height: 150px; /* Desired height */
+  overflow: hidden; /* Ensures images don't overflow the container */
+}
+
+.slider-img {
+  width: 100%; /* Makes the image fit the container */
+  height: 100%;
+  object-fit: contain; /* Adjusts how the image is resized to fit */
+}
+
 @media (max-width: 1023.9px) {
   nav ul {
     display: flex;
@@ -715,7 +730,7 @@
   .border_rIght {
     padding: 18px 0;
   }
-  fs_64 {
+  .fs_64 {
     font-size: 40px;
   }
   .book_free_btn {
