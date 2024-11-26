@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Down_arrow } from "../common/Icon";
-import boy from "../../assets/img/kids/png/boy.png";
+import boy from "../../assets/img/kids/png/Kid.png";
+import Kids_drawing from "../../assets/img/kids/png/kids-do-study.png";
+import kids_learning from "../../assets/img/kids/png/Learning-kids.png";
 import three from "../../assets/img/svg/3.svg";
 import geomatry from "../../assets/img/svg/geomatry.svg";
 import logic_and_pattern from "../../assets/img/svg/logic-and-pattern.png";
@@ -12,28 +14,33 @@ const CultivateThinking = () => {
   const tabs = [
     {
       id: "S2",
-      label: "S2",
-      description: "3-4 Years Old",
+      description: "Empowering Young Minds: Tailored Learning!",
       className: "s2_tab border_rIght",
     },
     {
       id: "S3",
-      label: "S3",
-      description: "5 Years Old",
+      description: "Unlocking the Magic of Early Communication!",
       className: "border_rIght",
     },
-    { id: "S4", label: "S4", description: "6 Years Old", className: "s4_tab" },
+    {
+      id: "S4",
+      description: "What Sets Summidence Kids Apart?",
+      className: "s4_tab",
+    },
   ];
   return (
     <div className="py-5 my-xl-5">
       <Container className="pt-md-5 mt-xl-5 custom_container">
-        <h3 className="ff_Poppins fw-bold text-center fs_48 lh_151 common_clr_blue mb-3">
-          Cultivate thinking skills from all aspects
-        </h3>
-        <p className="text-center ff_Poppins fw-normal fs_16 lh_151 color_light_black mb-0">
-          Our expert advisors can help you find the right workplace solution for
-          you and your team
-        </p>
+        <div className=" d-flex flex-column justify-content-center align-items-center">
+          <h3 className="ff_Poppins fw-bold text-center fs_48 lh_151 common_clr_blue mb-3">
+            Why Public Speaking Matters for Your Child
+          </h3>
+          <p className="text-center ff_Poppins fw-normal fs_16 lh_151 color_light_black mb-0 para_kids_tab">
+            A Foundation for Lifelong Success Did you know? 75% of children
+            experience speech anxiety, yet early exposure to public speaking can
+            turn this fear into their greatest strength.
+          </p>
+        </div>
         <div className="nav_tab mx-auto row">
           {tabs.map((tab) => (
             <div
@@ -51,14 +58,14 @@ const CultivateThinking = () => {
                 <Down_arrow />
               </span>
               <p
-                className={`txt_clr_orange ff_Poppins fw-semibold fs_18 lh_140 mb-0 ${
+                className={`txt_clr_orange ff_Poppins fw-medium text-center fs_16 lh_140 mb-0 ${
                   activeTab === tab.id ? "active" : ""
                 } `}
               >
                 {tab.label}
               </p>
               <p
-                className={`ff_Poppins fw-medium fs_15 lh_140 mb-0 txt_clr_orange ${
+                className={`ff_Poppins fw-medium fs_16 text-center lh_140 mb-0 txt_clr_orange ${
                   activeTab === tab.id ? "active" : ""
                 }`}
               >
@@ -76,244 +83,142 @@ const CultivateThinking = () => {
               }`}
             >
               {activeTab === "S2" && (
-                <Row>
-                  <Col lg={6}>
-                    <img
-                      src={boy}
-                      alt="boy"
-                      className="boy w-100 object-fit-cover"
-                    />
-                  </Col>
-                  <Col lg={6} className="mt-4 mt-lg-0">
-                    <div className="d-md-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={three} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column mt-4 mt-md-0">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Number Sense{" "}
-                          <span className=" d-block"> and Operations </span>
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Fluently compose and decompose numbers within 10{" "}
-                          <span className="d-block">
-                            Understand addition and subtraction within 10{" "}
-                          </span>{" "}
-                        </p>
+                <>
+                  <div className="header-div mb-4 text-center">
+                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 common_clr_blue mb-0">
+                      Our Unique Approach for Young Minds
+                    </h2>
+                    <p className="ff_Poppins fw-semibold fs_36 lh_132 text-black mb-0">
+                      Age-Tailored Programs
+                    </p>
+                  </div>
+                  <Row className="pt-5 align-items-center">
+                    <Col lg={5}>
+                      <img
+                        src={boy}
+                        alt="boy"
+                        className="image_navtab w-100 h-100 object-fit-cover"
+                      />
+                    </Col>
+                    <Col lg={7} className="mt-4 mt-lg-0">
+                      <div className="d-md-flex gap-4 mb-4 pb-2">
+                        <span>
+                          <img src={three} alt="three" />
+                        </span>
+                        <div className="d-flex flex-column mt-4 mt-md-0">
+                          <p className="ff_Poppins fw-semibold fs_32 lh_140 text-black mb-0">
+                            Little Stars (Ages 6-8)
+                          </p>
+                          <p className="ff_Poppins fw-medium fs_16 lh_132 ms-2 text-black mb-0 mt-1 mxw_tab_content">
+                            Engaging storytelling, creative games, voice
+                            discovery, confidence-building exercises, and public
+                            speaking through play.
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div className="d-md-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={geomatry} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column mt-4 mt-md-0">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Geometry
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Recognize 2D and 3D shapes
-                          <span className="d-block">
-                            Identify defining attributes of shapes (edges,{" "}
-                          </span>{" "}
-                          vertices, cross sections, nets, etc.)
-                        </p>
+                      <div className="d-md-flex gap-4 mb-4 pb-2">
+                        <span>
+                          <img src={geomatry} alt="three" />
+                        </span>
+                        <div className="d-flex flex-column mt-4 mt-md-0">
+                          <p className="ff_Poppins fw-semibold fs_32 lh_140 text-black mb-0">
+                            Young Speakers (Ages 9-12)
+                          </p>
+                          <p className="ff_Poppins fw-medium fs_16 lh_132 ms-2 text-black mb-0 mt-1 mxw_tab_content">
+                            Structured presentation skills, creative
+                            storytelling, basic debate, speech organization, and
+                            performance confidence.
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div className="d-md-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={logic_and_pattern} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column mt-4 mt-md-0">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Logic and Patterns
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Use analogical reasoning to solve Sudoku puzzles{" "}
-                          <span className="d-block">
-                            and understand the concept of cycles{" "}
-                          </span>{" "}
-                        </p>
+                      <div className="d-md-flex gap-4 mb-4 pb-2">
+                        <span>
+                          <img src={logic_and_pattern} alt="three" />
+                        </span>
+                        <div className="d-flex flex-column mt-4 mt-md-0">
+                          <p className="ff_Poppins fw-semibold fs_32 lh_140 text-black mb-0">
+                            Teen Leaders (Ages 13-16)
+                          </p>
+                          <p className="ff_Poppins fw-medium fs_16 lh_132 ms-2 text-black mb-0 mt-1 mxw_tab_content">
+                            Advanced presentation techniques, debate skills,
+                            leadership communication, interview preparation, and
+                            social media presence.
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div className="d-md-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={problem} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column mt-4 mt-md-0">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Problem Solving
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Learn tangram puzzles and practice creating
-                          <span className="d-block">
-                            shapes using tangram pieces{" "}
-                          </span>
-                          Measure by iterating length units{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
+                    </Col>
+                  </Row>
+                </>
               )}
               {activeTab === "S3" && (
-                <Row>
-                  <Col lg={6}>
-                    <img
-                      src={boy}
-                      alt="boy"
-                      className="boy w-100 object-fit-cover"
-                    />
-                  </Col>
-                  <Col lg={6} className="mt-4 mt-lg-0">
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={logic_and_pattern} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Logic and Patterns
+                <>
+                  <div className="header-div mb-4 text-center d-flex justify-content-center align-items-center">
+                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 para_kids_tab common_clr_blue mb-0">
+                      Unlock Your Child's Potential: The Magic of Early
+                      Communication Skills
+                    </h2>
+                  </div>
+                  <Row className="pt-5 align-items-center">
+                    <Col lg={5}>
+                      <img
+                        src={Kids_drawing}
+                        alt="boy"
+                        className="image_navtab w-100 h-100"
+                      />
+                    </Col>
+                    <Col lg={7} className="mt-4 mt-lg-0">
+                      <div className="mb-4 pb-2">
+                        <p className="ff_Poppins fw-semibold fs_36 lh_140 text-black mb-0">
+                          The Magic of Early Communication Skills
                         </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Use analogical reasoning to solve Sudoku puzzles{" "}
-                          <span className="d-block">
-                            and understand the concept of cycles{" "}
-                          </span>{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={problem} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Problem Solving
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Learn tangram puzzles and practice creating
-                          <span className="d-block">
-                            shapes using tangram pieces{" "}
-                          </span>
-                          Measure by iterating length units{" "}
+                        <p className="ff_Poppins fw-medium fs_16 lh_175 ms-2 text-black mb-0 mt-1 mxw_tab_content">
+                          Watch your child bloom with newfound confidence as
+                          they learn to express ideas clearly and joyfully.
+                          Early communication skills help them build lasting
+                          friendships, excel in school presentations, develop
+                          leadership abilities, stand out in extracurricular
+                          activities, and cultivate resilience and
+                          self-assurance.
                         </p>
                       </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={three} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Number Sense{" "}
-                          <span className=" d-block"> and Operations </span>
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Fluently compose and decompose numbers within 10{" "}
-                          <span className="d-block">
-                            Understand addition and subtraction within 10{" "}
-                          </span>{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={geomatry} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Geometry
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Recognize 2D and 3D shapes
-                          <span className="d-block">
-                            Identify defining attributes of shapes (edges,{" "}
-                          </span>{" "}
-                          vertices, cross sections, nets, etc.)
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
+                    </Col>
+                  </Row>
+                </>
               )}
               {activeTab === "S4" && (
-                <Row>
-                  <Col lg={6}>
-                    <img
-                      src={boy}
-                      alt="boy"
-                      className="boy w-100 object-fit-cover"
-                    />
-                  </Col>
-                  <Col lg={6} className="mt-4 mt-lg-0">
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={problem} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Problem Solving
+                <>
+                  <div className="header-div mb-4 text-center d-flex justify-content-center align-items-center">
+                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 para_kids_tab common_clr_blue mb-0">
+                      Building Confidence Through Personalized Learning at
+                      Summidence Kids
+                    </h2>
+                  </div>
+                  <Row className="pt-5 align-items-center">
+                    <Col lg={5}>
+                      <img
+                        src={kids_learning}
+                        alt="boy"
+                        className="image_navtab w-100 h-100"
+                      />
+                    </Col>
+                    <Col lg={7} className="mt-4 mt-lg-0">
+                      <div className="mb-4 pb-2">
+                        <p className="ff_Poppins fw-semibold fs_36 lh_140 text-black mb-0">
+                          What Makes Summidence Kids Special?
                         </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Learn tangram puzzles and practice creating
-                          <span className="d-block">
-                            shapes using tangram pieces{" "}
-                          </span>
-                          Measure by iterating length units{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={three} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Number Sense{" "}
-                          <span className=" d-block"> and Operations </span>
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Fluently compose and decompose numbers within 10{" "}
-                          <span className="d-block">
-                            Understand addition and subtraction within 10{" "}
-                          </span>{" "}
+                        <p className="ff_Poppins fw-medium fs_16 lh_175 ms-2 text-black mb-0 mt-1 mxw_tab_content">
+                          We focus on child-centered learning with small groups,
+                          personalized attention, and a supportive environment
+                          that allows children to progress at their own pace.
+                          Our expert guidance comes from certified youth coaches
+                          with backgrounds in child psychology and education,
+                          ensuring regular progress assessments and updates for
+                          parents.
                         </p>
                       </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={logic_and_pattern} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Logic and Patterns
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Use analogical reasoning to solve Sudoku puzzles{" "}
-                          <span className="d-block">
-                            and understand the concept of cycles{" "}
-                          </span>{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="d-flex gap-4 mb-4 pb-2">
-                      <span>
-                        <img src={geomatry} alt="three" />
-                      </span>
-                      <div className="max_w_360 d-flex flex-column">
-                        <p className=" ff_Poppins fw-medium fs_20 lh_140 text-black mb-0">
-                          Geometry
-                        </p>
-                        <p className=" ff_Poppins fw-medium fs_14 lh_132 opacity-75 text-black mb-0 mt-1">
-                          Recognize 2D and 3D shapes
-                          <span className="d-block">
-                            Identify defining attributes of shapes (edges,{" "}
-                          </span>{" "}
-                          vertices, cross sections, nets, etc.)
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
+                    </Col>
+                  </Row>
+                </>
               )}
             </div>
           ))}

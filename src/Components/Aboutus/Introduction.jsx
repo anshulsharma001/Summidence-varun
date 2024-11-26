@@ -1,87 +1,189 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import img_one from "../../assets/img/Aboutus/Png/Rectangle 2.png";
-import img_two from "../../assets/img/Aboutus/Png/Rectangle 1.png";
+import founder_img from "../../assets/img/Aboutus/Png/Founder-Varun-Dewan.png";
+import co_founder_img from "../../assets/img/Aboutus/Png/Co-Founder-Winnie-Woo.png";
 
 const Introduction = () => {
   return (
-    <div className="space_introduction">
-      <Container className="position-relative">
-        <Row className="d-flex justify-content-center align-items-center">
-          <Col xl={6} className="text-center  text-xl-start">
+    <div className="space_introduction px-1">
+      <Container>
+        <Row className="pb-lg-5">
+          <Col lg={4}>
             <div>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+              <img
+                className="w-100 h-100 img_about_us"
+                src={founder_img}
+                alt="founder_img"
+              />
+              <h2 className="fs_26 fw-bold ff_Poppins txt_clr_dark_blue lh_215 mb-0">
+                Varun Dewan
+              </h2>
+              <p className=" ff_Poppins fs_16 fw-normal lh_175 text-black mb-0">
+                Founder
               </p>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122 mt-2 mt-md-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122 mt-2 mt-md-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122 mt-2 mt-md-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122 mt-2 mt-md-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-              <p className="ff_Poppins fw-semibold fs_18 lh_122 mt-2 mt-md-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+              <p className=" ff_Poppins fs_16 fw-normal lh_175 text-black mb-0 me-md-3">
+                Varun Dewan brings a unique blend of technological expertise and
+                communication mastery to Summidence. His innovative approach to
+                public speaking training has revolutionized how people learn and
+                master communication skills.
               </p>
             </div>
           </Col>
-          <Col xl={6} className="text-center text-xl-start">
-            <div className="d-md-flex justify-content-between d-xl-none">
-              <div className="Card_intro_two">
-                <img className="img_card" src={img_two} alt="" />
-                <h2 className="ff_Poppins fs_22 fw-semibold lh_122 mb-0 common_clr_black">
-                  Darrell Steward
-                </h2>
-                <p className="ff_Poppins fs_18 lh_118 mb-0 common_clr_black mt-2">
-                  Co-Founder
-                </p>
-              </div>
-              <div className="Card_intro mt-3 mt-md-0">
-                <img className="img_card" src={img_one} alt="" />
-                <h2 className="ff_Poppins fs_22 fw-semibold lh_122 mb-0 common_clr_black">
-                  Ronald Richards
-                </h2>
-                <p className="ff_Poppins fs_18 lh_118 mb-0 common_clr_black mt-2">
-                  Founder
-                </p>
-              </div>
+          <Col lg={8}>
+            <div className="mt-md-4 mt-lg-0">
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2">
+                Professional Achievement
+              </p>
+              <ul className="m-0 p-0 ps-4">
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Former Senior Technology Director at leading tech companies
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Winner of Asia Pacific Public Speaking Championship (2019)
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Featured speaker at Women in Leadership Summit (2018-2023)
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Executive Communication Coach for Fortune 500 companies
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  TEDx speaker with "Finding Your Voice in a World of Noise"
+                </li>
+              </ul>
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2 mt-3">
+                Leadership & Impact
+              </p>
+              <ul className="m-0 p-0 ps-4">
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Mentored over 1,000 professionals in executive communication
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Pioneered "Speak to Lead" methodology for women in corporate
+                  leadership
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Founded "Young Voices" initiative, helping underprivileged
+                  youth develop communication skills
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Regular contributor to Leadership Today magazine
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Advisory board member for Women in Tech Asia
+                </li>
+              </ul>
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2 mt-3">
+                Philosophy
+              </p>
+              <p className="fs_16 ff_Poppins fw-medium lh_175 txt_clr_dark_blue mb-2 mt-3">
+                "Public speaking isn't just about the words we say – it's about
+                discovering our authentic voice and using it to create positive
+                change in the world. Every person has a unique story and
+                perspective that deserves to be heard."
+              </p>
             </div>
-            <div className="d-none d-xl-block">
-              <div className="Card_intro_two position-absolute">
-                <img className="img_card" src={img_two} alt="" />
-                <h2 className="ff_Poppins fs_22 fw-semibold lh_122 mb-0 common_clr_black">
-                  Darrell Steward
-                </h2>
-                <p className="ff_Poppins fs_18 lh_118 mb-0 common_clr_black mt-2">
-                  Co-Founder
-                </p>
-              </div>
-              <div className="Card_intro position-absolute">
-                <img className="img_card" src={img_one} alt="" />
-                <h2 className="ff_Poppins fs_22 fw-semibold lh_122 mb-0 common_clr_black">
-                  Ronald Richards
-                </h2>
-                <p className="ff_Poppins fs_18 lh_118 mb-0 common_clr_black mt-2">
-                  Founder
-                </p>
-              </div>
+          </Col>
+        </Row>
+        <Row className="mt-lg-5 mt-md-3 pt-5">
+          <Col lg={4}>
+            <div>
+              <img
+                className="w-100 h-100 img_about_us"
+                src={co_founder_img}
+                alt="co_founder_img"
+              />
+              <h2 className="fs_26 fw-bold ff_Poppins txt_clr_dark_blue lh_215 mb-0">
+                Winnie Woo
+              </h2>
+              <p className=" ff_Poppins fs_16 fw-normal lh_175 text-black mb-0">
+                Co-Founder
+              </p>
+              <p className=" ff_Poppins fs_16 fw-normal lh_175 text-black mb-0 me-md-3">
+                Co-Founder & Chief Communication OfficerWith over a decade of
+                experience in transforming lives through public speaking, Winnie
+                Woo stands as a beacon of inspiration for aspiring speakers and
+                leaders worldwide. Her journey embodies the very transformation
+                that Summidence promises its clients.
+              </p>
+            </div>
+          </Col>
+          <Col lg={8}>
+            <div className="mt-md-4 mt-lg-0">
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2">
+                Professional Highlights
+              </p>
+              <ul className="m-0 p-0 ps-4">
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Former Senior Technology Director at leading tech companies
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Certified Professional Coach (ICF)
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black me-md-5 pe-md-4">
+                  Creator of "TechSpeak" - a program helping technical
+                  professionals communicate complex ideas simply
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  15+ years of experience in coaching public speaking across age
+                  groups
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Pioneer in integrating technology with public speaking
+                  training
+                </li>
+              </ul>
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2 mt-3">
+                Innovation & Achievement
+              </p>
+              <ul className="m-0 p-0 ps-4">
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Developed Summidence's proprietary digital learning platform
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Led teams of 200+ technology professionals globally
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Featured speaker at Global Technology Leadership Summit
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Author of "Speak Tech: The Art of Technical Communication"
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Recipient of "Innovation in Education" award (2022)
+                </li>
+              </ul>
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2 mt-3">
+                Teaching Impact
+              </p>
+              <ul className="m-0 p-0 ps-4">
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Coached over 2,000 students from ages 8 to 80
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Specialized programs for neurodiverse learners
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Created youth-focused STEM communication programs
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Mentored startup founders in pitch presentation
+                </li>
+                <li className="ff_Poppins fw-normal fs_16 lh_175 text-black">
+                  Regular workshop leader at major tech conferences
+                </li>
+              </ul>
+              <p className="fs_26 ff_Poppins fw-bold lh_175 txt_clr_dark_blue mb-2 mt-3">
+                Philosophy
+              </p>
+              <p className="fs_16 ff_Poppins fw-medium lh_175 txt_clr_dark_blue mb-2 mt-3">
+                "Technology and communication are the two greatest enablers of
+                human potential. When we combine them effectively, we can create
+                unprecedented opportunities for growth and success."Together,
+                Building SummidenceWinnie and Varun's complementary strengths
+                create the foundation of Summidence's unique approach to public
+                speaking training.
+              </p>
             </div>
           </Col>
         </Row>

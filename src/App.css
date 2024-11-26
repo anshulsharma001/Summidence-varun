@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none !important;
+  /* text-decoration: none !important; */
 }
 .ff_Poppins {
   font-family: "Poppins";
@@ -34,6 +34,9 @@
 .fs_24 {
   font-size: 14px;
 }
+.fs_26{
+  font-size: 20px;
+}
 .fs_28 {
   font-size: 16px;
 }
@@ -48,6 +51,9 @@
 }
 .fs_48 {
   font-size: 26px;
+}
+.fs_54{
+  font-size: 54px;
 }
 .fs_56 {
   font-size: 28px;
@@ -94,8 +100,14 @@
 .lh_175 {
   line-height: 175%;
 }
+.lh_215{
+  line-height: 215%;
+}
 .common_clr_blue {
   color: #0c135c;
+}
+.txt_clr_dark_blue{
+  color: #181E27;
 }
 .bg-common_clr_blue {
   background-color: #0c135c;
@@ -240,8 +252,8 @@
   background-color: #0c135c;
 }
 .contact_img_rds {
+  border-top-right-radius: 24px;
   border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
 }
 .form-control {
   color: #ffffff !important;
@@ -416,12 +428,6 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.img_card {
-  width: 100%;
-  max-width: 298px;
-  height: 100%;
-  min-height: 308px;
-}
 .space_intro {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -551,6 +557,9 @@
 .max_w_596 {
   max-width: 596px;
 }
+.para_kids_tab{
+  max-width: 950px;
+}
 .making_kids_btn {
   border-width: 1.64px, 1.64px, 4.92px, 1.64px;
   border-style: solid;
@@ -604,42 +613,41 @@
   display: none; /* Hide down arrow */
 }
 .s2_tab {
-  border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
 }
 .s4_tab {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 .tab-content {
-  border-radius: 26px;
+  border-radius: 54px;
   background: linear-gradient(125.65deg, #fef5db 0.81%, #ffdfdf 100%);
-  padding: 30px;
+  padding: 60px;
   margin-top: 32px;
 }
-.boy {
-  max-width: 505px;
-  max-height: 475px;
+.image_navtab {
+  max-width: 467px;
+  max-height: 528px;
 }
-.max_w_360 {
-  max-width: 360px;
+.mxw_tab_content {
+  max-width: 406px;
 }
 /* **********************************************************************      About-us    ************************************************************************************* */
 /* aboutus-css */
+.para_aboutus{
+  max-width: 840px;
+}
+.img_about_us{
+  max-width: 305px;
+  min-height: 295px;
+}
 .bg_about_us {
   background-color: #0c135c;
 }
 .space_aboutus {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.img_card {
-  width: 100%;
-  max-width: 382px;
-  max-width: 298px;
-  height: 100%;
-  min-height: 465px;
-  min-height: 308px;
 }
 .space_introduction {
   margin-top: 40px;
@@ -668,10 +676,6 @@
 .sapce_how_business {
   padding: 40px 0;
 }
-.card_img_about_us {
-  bottom: -30%;
-  left: 7%;
-}
 .space_about_us {
   padding-bottom: 70px;
 }
@@ -679,17 +683,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px; /* Desired width */
-  height: 150px; /* Desired height */
-  overflow: hidden; /* Ensures images don't overflow the container */
+  width: 150px; 
+  height: 150px; 
+  overflow: hidden; 
 }
-
 .slider-img {
-  width: 100%; /* Makes the image fit the container */
+  width: 100%; 
   height: 100%;
-  object-fit: contain; /* Adjusts how the image is resized to fit */
+  object-fit: contain; 
 }
-
 @media (max-width: 1023.9px) {
   nav ul {
     display: flex;
@@ -721,14 +723,14 @@
   }
 }
 @media (min-width: 576px) {
+  .fs_26{
+    font-size: 26px;
+  }
   .image_box {
     padding: 16px 35px;
   }
-  .tab-content {
-    padding: 40px;
-  }
   .border_rIght {
-    padding: 18px 0;
+    padding: 10px 12px;
   }
   .fs_64 {
     font-size: 40px;
@@ -778,14 +780,6 @@
   }
   .fs_15{
     font-size: 14px;
-  }
-  .card_img_about_us {
-    bottom: -50%;
-    left: 10%;
-  }
-  .tab-content {
-    padding: 50px;
-    border-radius: 176.08px 26.41px 26.41px 26.41px;
   }
   .fs_64 {
     font-size: 46px;
@@ -844,10 +838,6 @@
   .space_aboutus {
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-  .img_card {
-    max-width: 328px;
-    min-height: 368px;
   }
   .fs_16 {
     font-size: 16px;
@@ -936,9 +926,6 @@
   .gap_btn_core_value {
     gap: 42px;
   }
-  .tab-content {
-    padding: 84px 96px 200px 110px;
-  }
   .bulb_small {
     top: -10%;
   }
@@ -954,8 +941,9 @@
   }
 }
 @media (min-width: 1024px) {
-  .tab-content {
-    padding: 54px 50px 30px 88px;
+  .contact_img_rds {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
 }
   .card_how {
     max-width: 284px;
@@ -975,10 +963,6 @@
   }
   .space_home {
     padding: 90px 0;
-  }
-  .card_img_about_us {
-    bottom: -30%;
-    left: -22%;
   }
   .img_gallery {
     max-width: 300px;
@@ -1004,10 +988,6 @@
   }
   .fs_72 {
     font-size: 72px;
-  }
-  .img_card {
-    max-width: 382px;
-    min-height: 465px;
   }
   .fs_32 {
     font-size: 32px;
@@ -1093,9 +1073,6 @@
     margin-top: 90px;
     margin-bottom: 245px;
   }
-  .tab-content {
-    padding: 84px 96px 200px 110px;
-  }
   .swiper-slide-2{
     width: 512.444px !important;
   }
@@ -1104,10 +1081,6 @@
   }
   .fs_64 {
     font-size: 64px;
-  }
-  .card_img_about_us {
-    bottom: -30%;
-    left: -35%;
   }
   .space_about_us {
     padding-bottom: 138px;
@@ -1131,17 +1104,6 @@
   .space_belajar {
     padding-top: 225px;
     padding-bottom: 191px;
-  }
-  .Card_intro {
-    width: 100%;
-    max-width: 382px;
-    top: 25%;
-  }
-  .Card_intro_two {
-    width: 100%;
-    max-width: 382px;
-    right: -4%;
-    top: -10%;
   }
   .space_aboutus {
     padding-top: 136px;

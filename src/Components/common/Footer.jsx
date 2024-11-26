@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="footer">
-      <div className="footer_container mx-auto px-3">
+      <div className="footer_container mx-auto px-4">
         <Row className="space_row d-flex justify-content-between">
           <Col lg={3}>
             <a href="/">
