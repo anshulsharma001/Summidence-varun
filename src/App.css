@@ -41,19 +41,25 @@
   font-size: 16px;
 }
 .fs_32 {
-  font-size: 18px;
+  font-size: 17px;
+}
+.Font_navtab{
+  font-size: 22px;
 }
 .fs_36 {
-  font-size: 22px;
+  font-size: 20px;
+}
+.fs_38 {
+  font-size: 26px;
 }
 .fs_20 {
   font-size: 14px;
 }
 .fs_48 {
-  font-size: 26px;
+  font-size: 25px;
 }
-.fs_54{
-  font-size: 54px;
+.fs_54 {
+  font-size: 25px;
 }
 .fs_56 {
   font-size: 28px;
@@ -622,8 +628,8 @@
 }
 .tab-content {
   border-radius: 54px;
-  background: linear-gradient(125.65deg, #fef5db 0.81%, #ffdfdf 100%);
-  padding: 60px;
+  background: linear-gradient(125.65deg, #FEF5DB 0.81%, #F7931F 100%);
+  padding: 15px;
   margin-top: 32px;
 }
 .image_navtab {
@@ -637,6 +643,69 @@
 /* aboutus-css */
 .para_aboutus{
   max-width: 840px;
+}
+.para_nuture{
+  max-width: 720px;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 102%;
+  background-color: #0C135C;
+  top: 1px;
+  bottom: 0;
+  left: 3%;
+  margin-left: -3px;
+}
+.timelinecontainer {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+}
+.timelinecontainer.left::after {
+  content: "" ;
+  position: absolute;
+  background-color: #F7931F ;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 0 1px 2px rgba(247, 147, 31, 0.7);
+  border-radius: 100px;
+  top: 0%;
+  left: 8%;
+  z-index: 5;
+}
+.timelinecontainer.right::after {
+  content: '';
+  position: absolute;
+  background-color: #F7931F;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 0 1px 2px rgba(247, 147, 31, 0.7);
+  border-radius: 100px;
+  top: 7%;
+  left: 9%;
+  z-index: 5;
+}
+.left {
+  left: -10%;
+}
+.right {
+  text-align: left;
+  right: 11%;
+}
+.right::after {
+  left: -5px;
+}
+.content {
+  width: 140%;
+  padding: 20px 30px;
+  position: relative;
 }
 .img_about_us{
   max-width: 305px;
@@ -659,6 +728,22 @@
   border: none;
   border-radius: 12px;
   padding: 12px 55px;
+}
+.img_business_hero {
+  max-width: 530px;
+  min-height: 330px;
+}
+.box_business_case{
+  width: 127px;
+  height: 127px;
+  border-radius: 100px;
+  background: linear-gradient(125.65deg, #FEF5DB 0.81%, #F7931F 100%);
+}
+.card_img_about_us {
+  max-width: 116px;
+  min-height: 111px;
+  bottom: -25%;
+  left: 24%;
 }
 .space_home {
   padding: 40px 0;
@@ -775,6 +860,53 @@
   }
 }
 @media (min-width: 768px) {
+  .card_img_about_us {
+    max-width: 233px;
+    min-height: 252px;
+    bottom: -21%;
+    left: 32%;
+}
+  .fs_38{
+    font-size: 38px;
+  }
+  .img_business_hero{
+    min-height: 530px;
+  }
+  .timelinecontainer {
+    width: 50%;
+  }
+    .Font_navtab {
+        font-size: 28px;
+    }
+  .timelinecontainer.right::after {
+    top: 10%;
+    left: 96%;
+  }
+  .timelinecontainer.left::after {
+    left: -4%;
+}
+  .right {
+    text-align: right;
+    right: 0%;
+  }
+  .content {
+    width: 100%;
+    padding: 20px 0 0 0px;
+    position: relative;
+  }  
+  .left {
+    left: 50%;
+  }
+  .timeline::after {
+    left: 50%;
+    height: 104%;
+  }
+  .tab-content {
+    padding: 38px;
+  }
+  .fs_54{
+    font-size: 44px;
+  }
   .fs_62{
     font-size: 64px;
   }
@@ -940,7 +1072,23 @@
     height: 100%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { 
+  .card_img_about_us {
+    bottom: -40%;
+    left: 18%;
+}
+  .timelinecontainer.left::after {
+    left: -3%;
+}
+.timelinecontainer.right::after {
+  left: 97%;
+}
+  .tab-content {
+    padding: 60px;
+  }
+  .fs_54 {
+    font-size: 39px;
+}
   .contact_img_rds {
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
@@ -990,8 +1138,8 @@
     font-size: 72px;
   }
   .fs_32 {
-    font-size: 32px;
-  }
+    font-size: 23px;
+}
   .right_logo {
     height: 50px;
     width: 50px;
@@ -1036,8 +1184,8 @@
     font-size: 46px;
   }
   .fs_48 {
-    font-size: 46px;
-  }
+    font-size: 40px;
+}
   .fs_20 {
     font-size: 26px;
   }
@@ -1069,6 +1217,15 @@
   }
 }
 @media (min-width: 1320px) {
+  .timelinecontainer.left::after {
+    left: -2%;
+}
+.timelinecontainer.right::after {
+  left: 98%;
+}
+  .fs_54 {
+    font-size: 54px;
+}
   .space_introduction {
     margin-top: 90px;
     margin-bottom: 245px;

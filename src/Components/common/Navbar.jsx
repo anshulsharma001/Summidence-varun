@@ -29,7 +29,7 @@ const Navbar = () => {
               <a
                 onClick={toggleMenu}
                 href="/kids"
-                className=" ff_Poppins fw-medium position-relative nav_link"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
                 Kids
               </a>
@@ -38,7 +38,7 @@ const Navbar = () => {
               <a
                 onClick={toggleMenu}
                 href="/school"
-                className=" ff_Poppins fw-medium position-relative nav_link"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
                 School
               </a>
@@ -47,7 +47,7 @@ const Navbar = () => {
               <a
                 onClick={toggleMenu}
                 href="about-us"
-                className=" ff_Poppins fw-medium position-relative nav_link"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
                 About us
               </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 onClick={toggleMenu}
                 href="/Business"
-                className=" ff_Poppins fw-medium position-relative nav_link"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
                 Business
               </a>

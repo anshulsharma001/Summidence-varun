@@ -8,58 +8,57 @@ const HowItWorks = () => {
       <Container>
         <div className="text-center">
           <h2 className="ff_Poppins fw-semibold fs_48 lh_132 common_clr_blue mb-0">
-            How it works
+            Why Communication is Your Competitive Edge
           </h2>
-          <p className="ff_Poppins fw-normal fs_16 lh_118 text_clr_grey mb-0 mt-2">
-            Businesses generally promote their brand, products, and
-            <span className="d-lg-block">
-              services by identifying audience.
-            </span>
-          </p>
         </div>
-        <Row className="justify-content-center justify-content-lg-between mt-lg-5 pt-4">
-          <Col md={6} lg={4} className="p-lg-0 d-flex justify-content-lg-center">
+        <Row className="justify-content-center text-center justify-content-lg-between mt-lg-5 pt-4">
+          <Col
+            md={6}
+            lg={4}
+            className="p-lg-0 d-flex justify-content-lg-center"
+          >
             <div className="card_how w-100 h-100">
               <Card_Box />
-              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-5">
-                Choose packages
+              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-3">
+                Leadership Development
               </p>
-              <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-3">
-                Businesses generally promote their brand,
-                <span className="d-lg-block">
-                  products, and services by identifying
-                </span>
-                <span className="d-lg-block">audience or users.</span>
+              <p className="ff_Poppins fs_14 fw-normal lh_118 text_clr_grey mb-0 mt-3">
+                * Transform managers into influential
+                <span className="d-block">leaders</span>
               </p>
             </div>
           </Col>
-          <Col md={6} lg={4} className="p-lg-0 d-flex justify-content-lg-center mt-3 mt-md-0">
+          <Col
+            md={6}
+            lg={4}
+            className="p-lg-0 d-flex justify-content-lg-center mt-3 mt-md-0"
+          >
             <div className="card_how w-100 h-100">
               <Card_calendar />
-              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-5">
-                Schedule appointment
+              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-3">
+                Team Performance
               </p>
-              <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-3">
-                When you have important information to
-                <span className="d-lg-block">
-                  pass onto your people, text messaging
-                </span>
-                <span className="d-lg-block">can be a great way to do it.</span>
+              <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-2 pe-md-4">
+                Accelerate outcomes through clear communication, reduce
+                conflicts, enhance collaboration, improve virtual team
+                performance, and boost employee confidence.
               </p>
             </div>
           </Col>
-          <Col md={6} lg={4} className="p-lg-0 d-flex justify-content-lg-center mt-3 mt-lg-0">
+          <Col
+            md={6}
+            lg={4}
+            className="p-lg-0 d-flex justify-content-lg-center mt-3 mt-lg-0"
+          >
             <div className="card_how w-100 h-100">
               <Card_graph />
-              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-5">
-                Grow together
+              <p className="ff_Poppins fw-semibold lh_118 fs_24 common_clr_blue mb-0 mt-3">
+                Client Relations
               </p>
-              <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-3">
-                Texting can sometimes come across as an
-                <span className="d-lg-block">
-                  impersonal way to communicate, it
-                </span>
-                <span className="d-lg-block"> can be highly beneficial.</span>
+              <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-2 pe-md-4">
+                Win more pitches, strengthen client relationships, deliver
+                impactful presentations, handle difficult conversations, and
+                present complex ideas clearly.
               </p>
             </div>
           </Col>

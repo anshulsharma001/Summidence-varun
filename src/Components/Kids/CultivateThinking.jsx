@@ -14,22 +14,22 @@ const CultivateThinking = () => {
   const tabs = [
     {
       id: "S2",
-      description: "Empowering Young Minds: Tailored Learning!",
+      description: "Tailored Learning for Young Minds!",
       className: "s2_tab border_rIght",
     },
     {
       id: "S3",
-      description: "Unlocking the Magic of Early Communication!",
+      description: "Early Expression Power!",
       className: "border_rIght",
     },
     {
       id: "S4",
-      description: "What Sets Summidence Kids Apart?",
+      description: "Why Choose Summidence Kids?",
       className: "s4_tab",
     },
   ];
   return (
-    <div className="py-5 my-xl-5">
+    <div className="py-5 my-xl-5 px-1">
       <Container className="pt-md-5 mt-xl-5 custom_container">
         <div className=" d-flex flex-column justify-content-center align-items-center">
           <h3 className="ff_Poppins fw-bold text-center fs_48 lh_151 common_clr_blue mb-3">
@@ -85,15 +85,15 @@ const CultivateThinking = () => {
               {activeTab === "S2" && (
                 <>
                   <div className="header-div mb-4 text-center">
-                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 common_clr_blue mb-0">
+                    <h2 className="ff_Poppins fw-semibold Font_navtab lh_140 common_clr_blue mb-0">
                       Our Unique Approach for Young Minds
                     </h2>
                     <p className="ff_Poppins fw-semibold fs_36 lh_132 text-black mb-0">
                       Age-Tailored Programs
                     </p>
                   </div>
-                  <Row className="pt-5 align-items-center">
-                    <Col lg={5}>
+                  <Row className="pt-md-5 align-items-center">
+                    <Col lg={5} className="d-flex justify-content-center">
                       <img
                         src={boy}
                         alt="boy"
@@ -159,7 +159,7 @@ const CultivateThinking = () => {
                     </h2>
                   </div>
                   <Row className="pt-5 align-items-center">
-                    <Col lg={5}>
+                    <Col lg={5} className="d-flex justify-content-center">
                       <img
                         src={Kids_drawing}
                         alt="boy"
@@ -194,7 +194,7 @@ const CultivateThinking = () => {
                     </h2>
                   </div>
                   <Row className="pt-5 align-items-center">
-                    <Col lg={5}>
+                    <Col lg={5} className="d-flex justify-content-center">
                       <img
                         src={kids_learning}
                         alt="boy"
