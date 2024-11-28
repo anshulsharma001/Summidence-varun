@@ -8,6 +8,9 @@ import Belajar from "../school/Belajar";
 import OurSmarty from "../school/OurSmarty";
 import TheOnlyWay from "../school/TheOnlyWay";
 import ContactSchool from "../school/ContactSchool";
+import BeyondThe from "../school/BeyondThe";
+import Teacher from "../school/Teacher";
+import Flexible from "../school/Flexible";
 
 const School = () => {
   return (
@@ -17,6 +20,9 @@ const School = () => {
       <AboutOurSchool />
       <OurSmarty />
       <TheOnlyWay />
+      <BeyondThe />
+      <Teacher />
+      <Flexible />
       <Belajar />
       <Gallery />
       <ContactSchool />

@@ -153,7 +153,7 @@ const CultivateThinking = () => {
               {activeTab === "S3" && (
                 <>
                   <div className="header-div mb-4 text-center d-flex justify-content-center align-items-center">
-                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 para_kids_tab common_clr_blue mb-0">
+                    <h2 className="ff_Poppins fw-semibold font_navtab lh_140 para_kids_tab common_clr_blue mb-0">
                       Unlock Your Child's Potential: The Magic of Early
                       Communication Skills
                     </h2>
@@ -188,7 +188,7 @@ const CultivateThinking = () => {
               {activeTab === "S4" && (
                 <>
                   <div className="header-div mb-4 text-center d-flex justify-content-center align-items-center">
-                    <h2 className="ff_Poppins fw-semibold fs_48 lh_140 para_kids_tab common_clr_blue mb-0">
+                    <h2 className="ff_Poppins fw-semibold font_navtab lh_140 para_kids_tab common_clr_blue mb-0">
                       Building Confidence Through Personalized Learning at
                       Summidence Kids
                     </h2>

@@ -62,7 +62,7 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-          <button className="do_you_bttn mx-auto d-flex ff_Poppins fw-medium fs_18 text-white lh_118 border-0 mt-4">
+          <button className="common_bttn mx-auto d-flex ff_Poppins fw-medium fs_18 text-white lh_118 border-0 mt-4">
             See More
           </button>
       </Container>

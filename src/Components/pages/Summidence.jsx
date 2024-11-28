@@ -8,6 +8,7 @@ import Testimonials from "../Summidence/Testimonials";
 import Contantus from "../Summidence/Contantus";
 import Footer from "../common/Footer";
 import YourLeadership from "../Summidence/YourLeadership";
+import BeyondPublic from "../Summidence/BeyondPublic";
 
 const Summidence = () => {
   return (
@@ -17,6 +18,7 @@ const Summidence = () => {
       <Getyourcopy />
       <Jason />
       <YourLeadership />
+      <BeyondPublic />
       <Current />
       <Testimonials />
       <Contantus />
