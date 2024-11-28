@@ -64,7 +64,7 @@ const Footer = () => {
               <li className="mb-0 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Jason’s Story
                 </a>
@@ -72,7 +72,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Speaking
                 </a>
@@ -80,7 +80,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Books
                 </a>
@@ -88,7 +88,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Books
                 </a>
@@ -98,7 +98,7 @@ const Footer = () => {
               <li className="m-0 p-0 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Mentorship
                 </a>
@@ -106,7 +106,7 @@ const Footer = () => {
               <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Media
                 </a>
@@ -114,7 +114,7 @@ const Footer = () => {
               <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
                 >
                   Contact
                 </a>
@@ -122,13 +122,13 @@ const Footer = () => {
             </ul>
           </Col>
           <Col lg={5} sm={6} xl={4} className="ps-0 mt-4 mt-lg-0">
-            <h2 className="ff_Poppins fw-semibold fs_28 lh_132">
+            <h2 className="ff_Poppins fw-semibold fs_26 lh_132">
               How can I empower you to live with conviction?
             </h2>
             <p className="ff_Poppins fw-medium fs_24 lh_132">
               Ask me a question, tell me your story, or share your feedback.
             </p>
-            <button className=" ff_Poppins fw-medium fs_28 lh_140 mb-0 text-black newsletter_btn w-100">
+            <button className=" ff_Poppins fw-medium fs_26 lh_140 mb-0 text-black newsletter_btn w-100">
               Subscribe to Newsletter
             </button>
           </Col>

@@ -11,7 +11,11 @@ const BeyondThe = () => {
           Beyond the Classroom
         </h2>
         <Row className="p-0 d-flex justify-content-center align-items-center mt-3 mt-md-5 gap-md-5">
-          <Col md={4} lg={3} className="d-flex justify-content-center justify-content-lg-end p-0">
+          <Col
+            md={4}
+            lg={3}
+            className="d-flex justify-content-center justify-content-lg-end p-0"
+          >
             <div className="card_you_beyond w-100 h-100">
               <img src={star_img} alt="" />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
@@ -31,7 +35,11 @@ const BeyondThe = () => {
               </div>
             </div>
           </Col>
-          <Col md={4} lg={3} className="d-flex justify-content-center p-0 mt-3 mt-md-0">
+          <Col
+            md={4}
+            lg={3}
+            className="d-flex justify-content-center p-0 mt-3 mt-md-0"
+          >
             <div className="card_you_beyond w-100 h-100">
               <img src={star_img} alt="" />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
@@ -51,7 +59,11 @@ const BeyondThe = () => {
               </div>
             </div>
           </Col>
-          <Col md={4} lg={3} className="p-0 d-flex justify-content-center mt-3 mt-md-0">
+          <Col
+            md={4}
+            lg={3}
+            className="p-0 d-flex justify-content-center mt-3 mt-md-0"
+          >
             <div className="card_you_beyond w-100 h-100">
               <img src={star_img} alt="" />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">

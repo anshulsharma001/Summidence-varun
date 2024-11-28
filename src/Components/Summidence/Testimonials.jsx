@@ -161,9 +161,9 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
         </Swiper> */}
-        <div className=" d-flex justify-content-center gap-5 mt-5 pt-5">
+        <div className=" d-flex flex-column flex-md-row justify-content-center gap-5 mt-5 pt-5">
           <div className="position-relative">
-            <div className="d-flex gap-5 align-items-center position-absolute man_img_slider">
+            <div className="d-flex gap-3 gap-md-5 align-items-center position-absolute man_img_slider">
               <img className=" w-100 h-100 slider_img" src={man_img} alt="" />
               <img className=" w-100 h-100 comma_img" src={comma_img} alt="" />
             </div>
@@ -181,8 +181,8 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
-          <div className="position-relative">
-            <div className="d-flex gap-5 align-items-center position-absolute man_img_slider">
+          <div className="position-relative mt-5 mt-md-0">
+            <div className="d-flex gap-3 gap-md-5 align-items-center position-absolute man_img_slider">
               <img className=" w-100 h-100 slider_img" src={man_img} alt="" />
               <img className=" w-100 h-100 comma_img" src={comma_img} alt="" />
             </div>

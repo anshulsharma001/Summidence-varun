@@ -38,7 +38,7 @@ const ContactBusiness = () => {
       setError("");
 
       const form = new FormData();
-      form.append("access_key", "c66c76ec-d085-41d1-ba99-f70dfcfadda1"); // Replace with your actual Web3Forms access key
+      form.append("access_key", "c66c76ec-d085-41d1-ba99-f70dfcfadda1"); // Replace with your actual Email access key
       form.append("name", name);
       form.append("email", email);
       form.append("phone", phone);

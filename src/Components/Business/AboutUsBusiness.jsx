@@ -10,7 +10,7 @@ const AboutUsBusiness = () => {
       <Container>
         <Row className="align-items-lg-center">
           <Col lg={6}>
-            <h2 className="ff_Poppins fw-semibold fs_38 lh_125 common_clr_blue mb-0 text-center text-lg-start">
+            <h2 className="ff_Poppins fw-semibold fs_36 lh_125 common_clr_blue mb-0 text-center text-lg-start">
               The Summidence Corporate Advantage
             </h2>
             <p className="ff_Poppins fs_16 fw-normal lh_118 text_clr_grey mb-0 mt-2 pe-md-5 me-md-5 text-center text-lg-start">

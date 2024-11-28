@@ -5,7 +5,7 @@ import contact_image from "../../assets/img/webp/contact-image.png";
 const ContactSchool = () => {
   const [formData, setFormData] = useState({
     name: "",
-    institute: "", // New field for "Name of Institute"
+    institute: "",
     email: "",
     phone: "",
     message: "",
@@ -26,7 +26,7 @@ const ContactSchool = () => {
 
     if (
       !name.trim() ||
-      !institute.trim() || // Check if "Name of Institute" is filled
+      !institute.trim() ||
       !email.trim() ||
       !phone.trim() ||
       !message.trim()
@@ -38,9 +38,9 @@ const ContactSchool = () => {
       setError("");
 
       const form = new FormData();
-      form.append("access_key", "c66c76ec-d085-41d1-ba99-f70dfcfadda1"); // Replace with your actual Web3Forms access key
+      form.append("access_key", "c66c76ec-d085-41d1-ba99-f70dfcfadda1");
       form.append("name", name);
-      form.append("institute", institute); // Append the new field
+      form.append("institute", institute);
       form.append("email", email);
       form.append("phone", phone);
       form.append("message", message);

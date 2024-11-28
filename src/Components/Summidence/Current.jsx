@@ -19,7 +19,7 @@ const Current = () => {
   return (
     <div className="bg_current space_current">
       <Container>
-        <div className="text-center text-lg-start">
+        <div className="text-center text-md-start">
           <h2 className="ff_Poppins fw-semibold fs_48 lh_118 text-white">
             Current <span className="txt_clr_orange">Associations</span>
           </h2>
@@ -35,22 +35,18 @@ const Current = () => {
         spaceBetween={5}
         slidesPerView={4.5}
         breakpoints={{
-          // When the screen width is >= 320px
           320: {
             slidesPerView: 1.2,
             spaceBetween: 20,
           },
-          // When the screen width is >= 768px
           768: {
             slidesPerView: 2.5,
             spaceBetween: 40,
           },
-          // When the screen width is >= 1024px
           1024: {
             slidesPerView: 3.5,
             spaceBetween: 60,
           },
-          // When the screen width is >= 1440px
           1440: {
             slidesPerView: 4.5,
             spaceBetween: 80,

@@ -8,7 +8,7 @@ const BeyondPublic = () => {
         <h2 className="ff_Poppins fw-bold fs_48 lh_125 common_clr_blue text-center">
           Beyond Public Speaking
         </h2>
-        <Row className="mt-5 pt-3">
+        <Row className="mt-md-5 pt-md-3 justify-content-center">
           <Col
             md={4}
             lg={3}
@@ -19,7 +19,7 @@ const BeyondPublic = () => {
                 65%
               </p>
             </div>
-            <p className=" ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-50">
+            <p className=" ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-75">
               Feel more confident in leadership roles
             </p>
           </Col>
@@ -47,21 +47,21 @@ const BeyondPublic = () => {
                 53%
               </p>
             </div>
-            <p className=" ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-50">
+            <p className=" ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-75">
               received new career opportunities
             </p>
           </Col>
           <Col
             md={4}
             lg={3}
-            className="text-center d-flex flex-column justify-content-center align-items-center mt-4 mt-md-0"
+            className="text-center d-flex flex-column justify-content-center align-items-center mt-4 mt-lg-0"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
               <p className=" ff_Poppins fw-bold fs_36 lh_132 common_clr_blue mb-0">
                 72%
               </p>
             </div>
-            <p className="ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-50">
+            <p className="ff_Poppins fs_14 fw-bold lh_125 common_clr_black mb-0 mt-3 w-75">
               report better team engagement
             </p>
           </Col>

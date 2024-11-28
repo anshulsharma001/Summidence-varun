@@ -7,7 +7,7 @@ import kids_learning from "../../assets/img/kids/png/Learning-kids.png";
 import three from "../../assets/img/svg/3.svg";
 import geomatry from "../../assets/img/svg/geomatry.svg";
 import logic_and_pattern from "../../assets/img/svg/logic-and-pattern.png";
-import problem from "../../assets/img/svg/problem-solving.svg";
+
 const CultivateThinking = () => {
   const [activeTab, setActiveTab] = useState("S2"); // Default active tab
 
@@ -48,7 +48,7 @@ const CultivateThinking = () => {
               className={`col_4 d-flex align-items-center justify-content-center flex-column cursor-pointer position-relative ${
                 tab.className
               } ${activeTab === tab.id ? "activetab" : ""}`}
-              onClick={() => setActiveTab(tab.id)} // Set active tab on click
+              onClick={() => setActiveTab(tab.id)}
             >
               <span
                 className={`position-absolute down_arrow ${

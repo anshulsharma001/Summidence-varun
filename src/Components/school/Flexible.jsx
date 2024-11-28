@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import star_img from "../../assets/img/svg/Star.svg";
 import { Arrow } from "../common/Icon";
 

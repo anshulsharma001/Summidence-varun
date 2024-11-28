@@ -8,7 +8,7 @@ const Jason = () => {
       <Container className="space_jason">
         <Row>
           <Col lg={6} className="text-center text-lg-start">
-            <div>
+            <div className=" d-flex flex-column justify-content-center align-items-center align-items-lg-start">
               <h2 className="ff_Poppins fw-semibold fs_48 lh_118 common_clr_blue mb-0">
                 Ready to Transform
                 <span className="d-block common_clr_black">

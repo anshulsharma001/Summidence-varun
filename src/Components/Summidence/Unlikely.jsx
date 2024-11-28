@@ -8,7 +8,7 @@ const Unlikely = () => {
       <Container>
         <div className="space_unlikely text-center text-lg-start">
           <div className=" d-flex flex-column justify-content-center align-items-center text-center">
-            <h2 className="ff_Jakarta fw-bolder fs_48 lh_77 common_clr_blue mb-md-4">
+            <h2 className="ff_Jakarta fw-bolder fs_48 lh_122 common_clr_blue mb-md-4">
               Your Journey to Extraordinary Leadership
             </h2>
             <p className="ff_Jakarta fw-normal para_unlikely fs_20 lh_132 common_clr_black mb-0">

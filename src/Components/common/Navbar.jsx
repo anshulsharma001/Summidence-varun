@@ -18,7 +18,6 @@ const Navbar = () => {
           <a href="/">
             <img className="navbar_logo" src={logo} alt="Logo" />
           </a>
-
           {/* Navigation Links */}
           <ul
             className={`d-flex flex-lg-row flex-column align-items-center mb-0 p-0 ${
@@ -70,7 +69,6 @@ const Navbar = () => {
               </button>
             </li>
           </ul>
-
           {/* Mobile Menu Button */}
           <button
             className="open d-block d-lg-none navicon"
