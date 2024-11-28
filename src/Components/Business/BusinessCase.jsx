@@ -10,7 +10,9 @@ const BusinessCase = () => {
         </h2>
         <Row className="mt-md-5 pt-3">
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
@@ -23,7 +25,9 @@ const BusinessCase = () => {
             </p>
           </Col>
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center mt-4 mt-md-0"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
@@ -36,7 +40,9 @@ const BusinessCase = () => {
             </p>
           </Col>
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center mt-4 mt-md-0"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
@@ -49,7 +55,9 @@ const BusinessCase = () => {
             </p>
           </Col>
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center mt-4 mt-lg-0"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
@@ -62,7 +70,9 @@ const BusinessCase = () => {
             </p>
           </Col>
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center mt-4"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">
@@ -75,7 +85,9 @@ const BusinessCase = () => {
             </p>
           </Col>
           <Col
-           md={4} lg={3} xl={2}
+            md={4}
+            lg={3}
+            xl={2}
             className="text-center d-flex flex-column justify-content-center align-items-center mt-4"
           >
             <div className="box_business_case d-flex justify-content-center align-items-center">

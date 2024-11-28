@@ -159,6 +159,17 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.para_jason{
+  max-width: 563px;
+}
+.card_you_leadership{
+  max-width: 215px;
+  min-height: 250px;
+  box-shadow: 0 2px 2px 0 #000000;
+  border-radius: 24px;
+  border: 1px solid #999999;
+  padding: 15px;
+}
 .common_bttn {
   padding: 10px 20px;
   background: #f7931f;
@@ -168,9 +179,8 @@
 }
 .common_card {
   border-radius: 24px;
-  width: 100%;
   max-width: 419px;
-  height: 100%;
+min-height: 571px;
   background: #0c135c;
 }
 .card_img_rds {
@@ -179,9 +189,19 @@
   border-top-left-radius: 24px;
 }
 .header_img {
-  max-width: 872px !important;
-  height: 304px !important;
+  max-width: 551px !important;
+  height: 551px !important;
   border-radius: 47px;
+}
+.para_summidence{
+  max-width: 670px;
+}
+.para_unlikely{
+  max-width: 790px;
+}
+.img_unlikely{
+  max-width: 546px;
+  min-height: 513px;
 }
 .common_underline::after {
   position: absolute;
@@ -203,9 +223,9 @@
   display: block;
   background-color: #0c135c;
 }
-.video {
-  width: 100%;
-  max-width: 527px;
+.jason_video {
+  max-width: 588px;
+  min-height: 330px;
   border-radius: 34px;
 }
 .bg_current {
@@ -1043,13 +1063,6 @@
   .common_bttn {
     padding: 12px 24px;
   }
-  .header_img {
-    height: 404px !important;
-    max-width: 450px !important;
-  }
-  .img_unlikely {
-    width: 50% !important;
-  }
   .fs_48 {
     font-size: 36px;
   }
@@ -1198,12 +1211,6 @@
   .fs_20 {
     font-size: 16px;
   }
-  .header_img {
-    border-radius: 47px;
-  }
-  .img_unlikely {
-    width: 100% !important;
-  }
   .mt_90 {
     margin-top: 28px;
   }
@@ -1274,15 +1281,11 @@
     padding-right: 0;
   }
   .space_unlikely {
-    margin-top: 175px;
+    margin-top: 135px;
   }
   .space_current {
     padding-top: 68px;
     padding-bottom: 150px;
-  }
-  .header_img {
-    max-width: 634px !important;
-    height: 551px !important;
   }
   .space_get {
     margin-top: 94px;
@@ -1309,7 +1312,7 @@
   }
   .space_jason {
     margin-top: 177px;
-    margin-bottom: 167px;
+    margin-bottom: 127px;
   }
   .fs_56 {
     font-size: 56px;

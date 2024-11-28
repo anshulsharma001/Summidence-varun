@@ -7,57 +7,56 @@ const Unlikely = () => {
     <>
       <Container>
         <div className="space_unlikely text-center text-lg-start">
-          <div className="d-md-flex justify-content-between align-items-start">
-            <h2 className="ff_Jakarta fw-bolder fs_48 lh_77 common_clr_blue mb-md-5">
-              <span className="position-relative common_underline">
-                UNLIKELY
-              </span>
+          <div className=" d-flex flex-column justify-content-center align-items-center text-center">
+            <h2 className="ff_Jakarta fw-bolder fs_48 lh_77 common_clr_blue mb-md-4">
+              Your Journey to Extraordinary Leadership
             </h2>
-            <button className="common_bttn ff_Poppins fw-light fs_18 lh_175 text-white mt-4 mt-md-0">
-              Get Your Copy
-            </button>
+            <p className="ff_Jakarta fw-normal para_unlikely fs_20 lh_132 common_clr_black mb-0">
+              Every great leader has a voice that inspires, motivates, and
+              drives change. Whether you're speaking to a boardroom of
+              executives or leading your team through a crucial presentation,
+              your ability to communicate effectively shapes how others perceive
+              and respond to your leadership.
+            </p>
           </div>
-          <p className="ff_Jakarta fw-bold fs_20 lh_132 common_clr_black mb-0">
-            The surprising personal story behind the garage startup that became
-            a $100m <span className="d-block">national health brand.</span>
-          </p>
         </div>
         <Row className="mt-lg-5 text-center text-lg-start align-items-center align-self-lg-start justify-content-center justify-content-lg-start">
-          <Col lg={6}>
-            <div>
-              <img
-                className="w-100 h-100 img_unlikely"
-                src={Unlikely_img}
-                alt=""
-              />
-            </div>
+          <Col lg={5}>
+            <img
+              className="w-100 h-100 img_unlikely"
+              src={Unlikely_img}
+              alt=""
+            />
           </Col>
-          <Col lg={6} className="p-lg-0">
+          <Col lg={7} className="">
             <div>
-              <p className="ff_Poppins fw-semibold fs_18 common_clr_black lh_151">
-                “It’s hard to put this book down. It lifts from the page as you
-                read it and takes you on a journey with a man intent on making
-                his life count. What strikes me is Jason Smith’s honesty, drive
-                and integrity. I love the way his faith undergirds his business
-                decision-making, even when the pressure is enormous. A must-read
-                if you want to make your life, your work and your business
-                thrive with an impact that matters.”
+              <p className="ff_Poppins fw-medium fs_18 common_clr_black lh_151 para_unlikely me-md-5">
+                Your Leadership Evolution Begins Here: At Summidence, we empower
+                you with expert-led workshops, personalized coaching, real-world
+                speaking opportunities, advanced storytelling techniques, and
+                strategies to manage anxiety and build confidence, helping you
+                communicate your vision with clarity, confidence, and charisma.
               </p>
-              <p className="ff_Poppins fw-semibold fs_18 common_clr_black lh_158">
-                <span className="common_clr_blue fw-bold fs_24">
-                  {" "}
-                  Rev Tim Costello AO
+              <p className="ff_Poppins fw-medium fs_18 common_clr_black lh_175 mt-5">
+                <span className="common_clr_blue fw-semibold fs_24">
+                  Beyond Public Speaking
                 </span>
-                <span className="d-block">Director, Ethical Voice</span>
+                <span className="d-block fw-semibold mt-2">
+                  Graduates of our program report benefits that extend well
+                  beyond the podium.
+                </span>
                 <span className="d-block">
-                  Former CEO, World Vision Australia
+                  84% feeling more confident in leadership roles
                 </span>
                 <span className="d-block">
-                  Rated Top 100 in Australia’s National Living Treasures,
-                  National Trust poll 2014
+                  92% improvement in daily communications
                 </span>
-                <span className="d-block">Victorian of the Year 2004</span>
-                <span className="d-block">Australian Peace Prize 2008</span>
+                <span className="d-block">
+                  76% gaining new career opportunities within six months
+                </span>
+                <span className="d-block">
+                  89% better team engagement and motivation skills
+                </span>
               </p>
             </div>
           </Col>

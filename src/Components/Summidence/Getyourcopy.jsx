@@ -8,9 +8,19 @@ const Getyourcopy = () => {
   return (
     <>
       <Container className="space_get">
-        <Row className=" d-flex justify-content-center justify-content-xl-start align-items-center align-items-xl-start">
+        <div className=" d-flex flex-column justify-content-center align-items-center text-center">
+          <h2 className="ff_Poppins fs_48 fw-semibold lh_125 common_clr_blue">
+            The Summidence Difference
+          </h2>
+          <p className=" ff_Poppins fw-medium fs_16 lh_158 common_clr_black max_w_630">
+            Our approach goes beyond traditional public speaking training. At
+            Summidence, we don’t just teach you to speak, we help you discover a
+            better version of yourself. Here’s how
+          </p>
+        </div>
+        <Row className="d-flex justify-content-center justify-content-xl-start align-items-center align-items-xl-start mt-md-4">
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
-            <div className="common_card">
+            <div className="common_card w-100 h-100">
               <img
                 className="w-100 h-50 card_img_rds "
                 src={image_one}
@@ -18,21 +28,18 @@ const Getyourcopy = () => {
               />
               <div className="p-4">
                 <h2 className="ff_Jakarta fw-semibold fs_24 text-white lh_125 mb-0">
-                  READ ONE OF JASON’S LATEST BOOKS
+                  Personalized Growth Journey
                 </h2>
-                <p className="ff_Poppins fw-medium fs_16 lh_132 text_clr_light_grey mt-3 mb-1">
-                  Jason is an accomplished author whose books have captivated
-                  readers with their depth and insight. Drawing from his own
-                  l...
+                <p className="ff_Poppins fw-medium fs_16 lh_151 text_clr_light_grey mt-3 mb-1">
+                  Every leader’s voice is unique. We help you cultivate your
+                  authentic speaking style so you can stand out while staying
+                  true to yourself.
                 </p>
-                <button className="common_bttn ff_Poppins fw-light fs_16 lh_175 text-white mt-md-2">
-                  Get your copy
-                </button>
               </div>
             </div>
           </Col>
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
-            <div className="common_card">
+            <div className="common_card w-100 h-100">
               <img
                 className="w-100 h-50 card_img_rds "
                 src={image_two}
@@ -40,21 +47,18 @@ const Getyourcopy = () => {
               />
               <div className="p-4">
                 <h2 className="ff_Jakarta fw-semibold fs_24 text-white lh_125 mb-0">
-                  READ ONE OF JASON’S LATEST BOOKS
+                  Practical Excellence
                 </h2>
-                <p className="ff_Poppins fw-medium fs_16 lh_132 text_clr_light_grey mt-3 mb-1">
-                  Jason is an accomplished author whose books have captivated
-                  readers with their depth and insight. Drawing from his own
-                  l...
+                <p className="ff_Poppins fw-medium fs_16 lh_151 text_clr_light_grey mt-3 mb-1">
+                  Learn through action. Our interactive sessions offer
+                  real-world speaking opportunities with constructive feedback
+                  from experienced coaches and peers.
                 </p>
-                <button className="common_bttn ff_Poppins fw-light fs_16 lh_175 text-white mt-md-2">
-                  Get your copy
-                </button>
               </div>
             </div>
           </Col>
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
-            <div className="common_card">
+            <div className="common_card w-100 h-100">
               <img
                 className="w-100 h-100 card_img_rds "
                 src={image_three}
@@ -62,16 +66,13 @@ const Getyourcopy = () => {
               />
               <div className="p-4">
                 <h2 className="ff_Jakarta fw-semibold fs_24 text-white lh_125 mb-0">
-                  READ ONE OF JASON’S LATEST BOOKS
+                  Lasting Transformation
                 </h2>
-                <p className="ff_Poppins fw-medium fs_16 lh_132 text_clr_light_grey mt-3 mb-1">
-                  Jason is an accomplished author whose books have captivated
-                  readers with their depth and insight. Drawing from his own
-                  l...
+                <p className="ff_Poppins fw-medium fs_16 lh_151 text_clr_light_grey mt-3 mb-1">
+                  Witness your newfound confidence and communication skills
+                  positively affect all aspects of your life—from leading
+                  meetings to building stronger relationships.
                 </p>
-                <button className="common_bttn ff_Poppins fw-light fs_16 lh_175 text-white mt-md-2">
-                  Get your copy
-                </button>
               </div>
             </div>
           </Col>
