@@ -34,7 +34,7 @@ const TheOnlyWay = () => {
       setActiveQuoteIndex((prevIndex) =>
         prevIndex === quotes.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000);  
+    }, 5000);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -83,6 +83,9 @@ const TheOnlyWay = () => {
               ))}
             </Swiper>
           </Col>
+
+
+          
           <Col md={6} className="mt-4 mt-md-0 position-relative">
             <img src={brain} alt="brain" className="position-absolute brain" />
             <img
