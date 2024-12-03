@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Form, Button } from "react-bootstrap";
 import footer_img from "../../assets/img/webp/footer-logo.png";
 import Instagram from "../../assets/img/svg/Instagram.svg";
 import Facebook from "../../assets/img/svg/Facebook.svg";
@@ -9,6 +9,11 @@ import Youtube from "../../assets/img/svg/Youtube.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+    alert("Thank you for subscribing!");
+  };
   return (
     <div className="footer">
       <div className="footer_container mx-auto px-4">
@@ -64,7 +69,7 @@ const Footer = () => {
               <li className="mb-0 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Jason’s Story
                 </a>
@@ -72,7 +77,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Speaking
                 </a>
@@ -80,7 +85,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Books
                 </a>
@@ -88,7 +93,7 @@ const Footer = () => {
               <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Books
                 </a>
@@ -98,7 +103,7 @@ const Footer = () => {
               <li className="m-0 p-0 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Mentorship
                 </a>
@@ -106,7 +111,7 @@ const Footer = () => {
               <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Media
                 </a>
@@ -114,7 +119,7 @@ const Footer = () => {
               <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium fs_24 common_clr_black lh_140"
+                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
                   Contact
                 </a>
@@ -122,29 +127,38 @@ const Footer = () => {
             </ul>
           </Col>
           <Col lg={5} sm={6} xl={4} className="ps-0 mt-4 mt-lg-0">
-            <h2 className="ff_Poppins fw-semibold fs_26 lh_132">
+            <h2 className="ff_Poppins fw-semibold fs_24 lh_132">
               How can I empower you to live with conviction?
             </h2>
-            <p className="ff_Poppins fw-medium fs_24 lh_132">
+            <p className="ff_Poppins fw-medium  lh_132">
               Ask me a question, tell me your story, or share your feedback.
             </p>
-            <button className=" ff_Poppins fw-medium fs_26 lh_140 mb-0 text-black newsletter_btn w-100">
-              Subscribe to Newsletter
-            </button>
+            <form onSubmit={handleSubscribe} className="d-flex flex-column  flex-md-row">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="me-md-2 mb-2 mb-md-0 rounded-pill w-100 px-4   "
+                required
+              />
+              <Button type="submit" className="common_bttn">
+                Subscribe
+              </Button>
+            </form>
+
           </Col>
         </Row>
       </div>
       <div className="bg_orange py-3">
         <div className="footer_container mx-auto px-3 my-1">
           <div className="d-flex align-items-center justify-content-between flex-md-row flex-column gap-1">
-            <p className="ff_Poppins fw-medium fs_24 lh_151 text-white mb-0">
+            <p className="ff_Poppins fw-medium  lh_151 text-white mb-0">
               © {currentYear} Summidence. All rights reserved
             </p>
             <ul className="d-flex align-items-center gap-md-5 gap-4 mb-0">
-              <li className=" ff_Poppins fw-medium fs_24 lh_151 text-white mb-0">
+              <li className=" ff_Poppins fw-medium  lh_151 text-white mb-0">
                 Terms of service
               </li>
-              <li className=" ff_Poppins fw-medium fs_24 lh_151 text-white mb-0">
+              <li className=" ff_Poppins fw-medium  lh_151 text-white mb-0">
                 Privacy Policy
               </li>
             </ul>

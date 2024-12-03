@@ -93,7 +93,7 @@
   color: #181E27;
 }
 .bg-common_clr_blue {
-  background-color: #0c135c;
+  background-color: #0c135c !important;
 }
 .bg_current {
   background-color: #0c135c;
@@ -178,6 +178,10 @@
   border: none;
   border-radius: 94px;
   box-shadow: 0px 4px 4px 0px #00000040 inset;
+  transition: 300ms;
+}
+.common_bttn:hover { 
+  box-shadow: 0px 0px 0px 0px #00000040 inset;
 }
 .making_kids_btn {
   border-width: 1.64px, 1.64px, 4.92px, 1.64px;
@@ -202,7 +206,7 @@
 /* //////////////////////////////////////////////////.                NAVBAR              //////////////////////////////////////////////// */
 .navbar_logo {
   max-width: 150px;
-  max-height: 87px;
+  max-height: 87px; 
 }
 .nav_link {
   font-size: 16px;
@@ -219,10 +223,14 @@
 .card_you_leadership{
   max-width: 215px;
   min-height: 250px;
-  box-shadow: 0 2px 2px 0 #000000;
-  border-radius: 24px;
-  border: 1px solid #999999;
+  box-shadow: 0 5px 2px 0 #00000093;
+  border-radius: 24px; 
   padding: 15px;
+  transition: 300ms;
+}
+.card_you_leadership:hover{
+ 
+  box-shadow: 0 5px 2px 0 #000000bb; 
 }
 .teacher_img {
   max-width: 546px;
@@ -402,11 +410,11 @@
   background: #ffffffeb;
 }
 .footer_container {
-  max-width: 1760px;
+  max-width: 1320px;
 }
 .footer_social_icon {
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   background-color: #0c135c;
 }
@@ -888,8 +896,10 @@ nav ul.open {
     padding: 10px 35px;
 }
 .navbar_logo {
-    max-width: 150px;
+    max-width: 250px;
     max-height: 87px;
+    
+
 }
 .space_img_gallery {
     margin-top: 25px;
@@ -1129,6 +1139,18 @@ nav ul.open {
 .fs_64 {
     font-size: 55px;
 }
+.marquee-img { 
+  width: 150px !important;
+  margin: 0 90px !;
+  height: 150px !important;
+  object-fit: contain;
+}
+}
+.marquee-img { 
+  width: 80px;
+  margin: 0 20px;
+  height: 80px;
+  object-fit: contain;
 }
 @media (min-width: 1320px) {
 .jason_video {
@@ -1248,3 +1270,4 @@ nav ul.open {
     margin-top: 90px;
 }
 }
+
