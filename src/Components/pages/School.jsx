@@ -19,8 +19,8 @@ const School = () => {
       <AboutOurSchool />
       <OurSmarty />
       <TheOnlyWay />
-      <BeyondThe />
       <Teacher />
+      <BeyondThe />
       <Flexible />
       <Belajar />
       <Gallery />

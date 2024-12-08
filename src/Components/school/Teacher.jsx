@@ -4,7 +4,7 @@ import teacher_img from "../../assets/img/School/Png/Teacher.png";
 
 const Teacher = () => {
   return (
-    <div>
+    <div className="mt-5">
       <Container>
         <Row className=" align-items-center text-center text-md-start">
           <Col md={6}>
