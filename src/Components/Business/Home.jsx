@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import header_img from "../../assets/img/Business/Img/Png/Business-hero.png";
+import header_img from "../../assets/img/Business/Img/Png/Business-hero.jpeg";
 
 const Home = () => {
   return (

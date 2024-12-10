@@ -1,6 +1,12 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap"; 
-import { AdvTech, Coaching, Confidence, RealWorld, Workshop } from "../common/Icon";
+import { Col, Container, Row } from "react-bootstrap";
+import {
+  AdvTech,
+  Coaching,
+  Confidence,
+  RealWorld,
+  Workshop,
+} from "../common/Icon";
 
 const YourLeadership = () => {
   return (
@@ -20,8 +26,8 @@ const YourLeadership = () => {
             md={4}
             className=" d-flex flex-column justify-content-center align-items-center"
           >
-            <div className="card_you_leadership w-100 h-100"> 
-          <Workshop/>
+            <div className="card_you_leadership w-100 h-100">
+              <Workshop />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
                 Expert-led Workshops
               </p>
@@ -36,7 +42,7 @@ const YourLeadership = () => {
             className=" d-flex flex-column justify-content-center align-items-center mt-3 mt-md-0"
           >
             <div className="card_you_leadership w-100 h-100">
-            <Coaching/>
+              <Coaching />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
                 Personalized Coaching
               </p>
@@ -51,7 +57,7 @@ const YourLeadership = () => {
             className=" d-flex flex-column justify-content-center align-items-center mt-3 mt-md-0"
           >
             <div className="card_you_leadership w-100 h-100">
-            <RealWorld/>
+              <RealWorld />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
                 Real-world Practice
               </p>
@@ -66,7 +72,7 @@ const YourLeadership = () => {
             className=" d-flex flex-column justify-content-center align-items-center mt-3 mt-xl-0"
           >
             <div className="card_you_leadership w-100 h-100">
-            <AdvTech/>
+              <AdvTech />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
                 Advanced Techniques
               </p>
@@ -81,7 +87,7 @@ const YourLeadership = () => {
             className=" d-flex flex-column justify-content-center align-items-center mt-3"
           >
             <div className="card_you_leadership w-100 h-100">
-            <Confidence/>
+              <Confidence />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mb-0">
                 Confidence Building
               </p>
@@ -95,7 +101,7 @@ const YourLeadership = () => {
         <div className=" d-none d-xl-block mt-4">
           <div className="d-flex justify-content-center gap-4">
             <div className="card_you_leadership w-100 h-100">
-               <Workshop/>
+              <Workshop />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mt-2 mb-0">
                 Expert-led Workshops
               </p>
@@ -105,7 +111,7 @@ const YourLeadership = () => {
               </p>
             </div>
             <div className="card_you_leadership w-100 h-100">
-               <Coaching/>
+              <Coaching />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mt-2 mb-0">
                 Personalized Coaching
               </p>
@@ -115,7 +121,7 @@ const YourLeadership = () => {
               </p>
             </div>
             <div className="card_you_leadership w-100 h-100">
-               <RealWorld/>
+              <RealWorld />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mt-2 mb-0">
                 Real-world Practice
               </p>
@@ -125,7 +131,7 @@ const YourLeadership = () => {
               </p>
             </div>
             <div className="card_you_leadership w-100 h-100">
-               <AdvTech/>
+              <AdvTech />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 mt-2 common_clr_blue mb-0">
                 Advanced Techniques
               </p>
@@ -135,7 +141,7 @@ const YourLeadership = () => {
               </p>
             </div>
             <div className="card_you_leadership w-100 h-100">
-               <Confidence/>
+              <Confidence />
               <p className="ff_Poppins fw-semibold fs_16 lh_125 common_clr_blue mt-2 mb-0">
                 Confidence Building
               </p>
@@ -145,6 +151,11 @@ const YourLeadership = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className=" d-flex justify-content-center align-items-center mt-5">
+          <button className="common_bttn text-white ff_Poppins fw-normal fs_16">
+            Contact'Us
+          </button>
         </div>
       </Container>
     </div>

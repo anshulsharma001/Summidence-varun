@@ -27,10 +27,10 @@ const Navbar = () => {
             <li className="mb-0 list-unstyled">
               <a
                 onClick={toggleMenu}
-                href="/kids"
+                href="/Business"
                 className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
-                Kids
+                Business
               </a>
             </li>
             <li className="mb-0 list-unstyled">
@@ -45,27 +45,29 @@ const Navbar = () => {
             <li className="mb-0 list-unstyled">
               <a
                 onClick={toggleMenu}
+                href="/kids"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
+              >
+                Students
+              </a>
+            </li>
+
+            <li className="mb-0 list-unstyled">
+              <a
+                onClick={toggleMenu}
                 href="about-us"
                 className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >
                 About us
               </a>
             </li>
-            <li className="mb-0 list-unstyled">
-              <a
-                onClick={toggleMenu}
-                href="/Business"
-                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
-              >
-                Business
-              </a>
-            </li>
+
             <li className=" list-unstyled">
               <button
                 className="common_bttn text-white ff_Poppins fw-normal fs_16"
                 onClick={toggleMenu}
               >
-                Let’s connect
+                Contact'Us
               </button>
             </li>
           </ul>

@@ -20,7 +20,7 @@ const Unlikely = () => {
             </p>
           </div>
         </div>
-        <Row className="mt-lg-5 text-center text-lg-start align-items-center align-self-lg-start justify-content-center justify-content-lg-start">
+        {/* <Row className="mt-lg-5 text-center text-lg-start align-items-center align-self-lg-start justify-content-center justify-content-lg-start">
           <Col lg={5}>
             <img
               className="w-100 h-100 img_unlikely"
@@ -31,36 +31,18 @@ const Unlikely = () => {
           <Col lg={7} className="">
             <div>
               <p className="ff_Poppins fw-medium fs_18 common_clr_black lh_151 para_unlikely me-md-5">
-                Your Leadership Evolution Begins Here: At Summidence, we empower
-                you with expert-led workshops, personalized coaching, real-world
-                speaking opportunities, advanced storytelling techniques, and
-                strategies to manage anxiety and build confidence, helping you
-                communicate your vision with clarity, confidence, and charisma.
-              </p>
-              <p className="ff_Poppins fw-medium fs_18 common_clr_black lh_175 mt-5">
-                <span className="common_clr_blue fw-semibold fs_24">
-                  Beyond Public Speaking
-                </span>
-                <span className="d-block fw-semibold mt-2">
-                  Graduates of our program report benefits that extend well
-                  beyond the podium.
-                </span>
-                <span className="d-block">
-                  84% feeling more confident in leadership roles
-                </span>
-                <span className="d-block">
-                  92% improvement in daily communications
-                </span>
-                <span className="d-block">
-                  76% gaining new career opportunities within six months
-                </span>
-                <span className="d-block">
-                  89% better team engagement and motivation skills
-                </span>
+                Embark on the journey to unlock your full confidence and unleash
+                your leadership potential—it all begins with a single step. At
+                Summidence, we’re here to guide and support you every step of
+                the way to reach the pinnacle of your success. We have
+                expert-led workshops, group or personal coaching, real-world
+                speaking opportunities, and strategies to manage anxiety, to
+                help you build confidence, and allow you to communicate your
+                vision with clarity, confidence and charisma.
               </p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );
