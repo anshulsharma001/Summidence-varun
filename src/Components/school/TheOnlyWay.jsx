@@ -83,9 +83,6 @@ const TheOnlyWay = () => {
               ))}
             </Swiper>
           </Col>
-
-
-          
           <Col md={6} className="mt-4 mt-md-0 position-relative">
             <img src={brain} alt="brain" className="position-absolute brain" />
             <img
