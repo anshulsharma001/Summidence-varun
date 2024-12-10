@@ -1,9 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
+import Marquee from "react-fast-marquee";
 import img_one from "../../assets/img/webp/1.png";
 import img_two from "../../assets/img/webp/2.png";
 import img_three from "../../assets/img/webp/3.png";
@@ -25,86 +22,23 @@ const Current = () => {
           </h2>
         </div>
       </Container>
-      <Swiper
-        className="space_slider d-flex justify-content-center align-items-center"
-        loop={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        spaceBetween={5}
-        slidesPerView={4.5}
-        breakpoints={{
-          320: {
-            slidesPerView: 1.2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2.5,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 3.5,
-            spaceBetween: 60,
-          },
-          1440: {
-            slidesPerView: 4.5,
-            spaceBetween: 80,
-          },
-        }}
-        modules={[Autoplay, Pagination]}
+      <Marquee 
+        pauseOnHover={true} 
+        speed={50} 
+        gradient={false}
+        className="marquee-container mt-5"
       >
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_one} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_two} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_three} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_four} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_five} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_six} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_seven} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_eight} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_nine} alt="image1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-img-wrapper">
-            <img className="slider-img" src={img_ten} alt="image1" />
-          </div>
-        </SwiperSlide>
-      </Swiper>
+        <img className="marquee-img " src={img_one} alt="image1" />
+        <img className="marquee-img" src={img_two} alt="image2" />
+        <img className="marquee-img" src={img_three} alt="image3" />
+        <img className="marquee-img" src={img_four} alt="image4" />
+        <img className="marquee-img" src={img_five} alt="image5" />
+        <img className="marquee-img" src={img_six} alt="image6" />
+        <img className="marquee-img" src={img_seven} alt="image7" />
+        <img className="marquee-img" src={img_eight} alt="image8" />
+        <img className="marquee-img" src={img_nine} alt="image9" />
+        <img className="marquee-img" src={img_ten} alt="image10" />
+      </Marquee>
     </div>
   );
 };

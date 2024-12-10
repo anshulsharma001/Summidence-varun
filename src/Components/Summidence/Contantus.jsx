@@ -135,9 +135,9 @@ const Contactus = () => {
             {error && <p className="text-danger fw-semibold mb-3">{error}</p>}
             <Button
               type="submit"
-              className="form_bttn mt-5 ff_Jakarta fw-semibold fs_32 lh_118"
+              className="common_bttn mt-5 ff_Jakarta fw-semibold  lh_118"
             >
-              Send
+              SUBMIT
             </Button>
           </Form>
         </Col>
