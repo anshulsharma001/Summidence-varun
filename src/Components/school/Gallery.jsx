@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import img_one from "../../assets/img/School/Png/1.png";
-import img_two from "../../assets/img/School/Png/2.png";
-import img_three from "../../assets/img/School/Png/3.png";
-import img_four from "../../assets/img/School/Png/4.png";
+import img_one from "../../assets/img/School/Png/1.jpeg";
+import img_two from "../../assets/img/School/Png/2.jpeg";
+import img_three from "../../assets/img/School/Png/3.jpeg";
+import img_four from "../../assets/img/School/Png/4.jpeg";
 import img_five from "../../assets/img/School/Png/5.png";
-import img_six from "../../assets/img/School/Png/6.png";
+import img_six from "../../assets/img/School/Png/6.jpeg";
 
 const Gallery = () => {
   return (

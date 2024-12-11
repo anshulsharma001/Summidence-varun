@@ -6,6 +6,7 @@ import Facebook from "../../assets/img/svg/Facebook.svg";
 import Linkedin from "../../assets/img/svg/Linkedin.svg";
 import TitterX from "../../assets/img/svg/TwitterX.svg";
 import Youtube from "../../assets/img/svg/Youtube.svg";
+import Business from "./../pages/Business";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -71,7 +72,7 @@ const Footer = () => {
                   href="/"
                   className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
-                  Jason’s Story
+                  Home
                 </a>
               </li>
               <li className="mt-md-4 mt-3 list-unstyled">
@@ -79,7 +80,7 @@ const Footer = () => {
                   href="/"
                   className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
-                  Speaking
+                  Business
                 </a>
               </li>
               <li className="mt-md-4 mt-3 list-unstyled">
@@ -87,15 +88,7 @@ const Footer = () => {
                   href="/"
                   className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
-                  Books
-                </a>
-              </li>
-              <li className="mt-md-4 mt-3 list-unstyled">
-                <a
-                  href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
-                >
-                  Books
+                  School
                 </a>
               </li>
             </ul>
@@ -105,23 +98,15 @@ const Footer = () => {
                   href="/"
                   className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
-                  Mentorship
+                  Aboutus
                 </a>
               </li>
-              <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
+              <li className="mt-md-4 mt-3 list-unstyled">
                 <a
                   href="/"
                   className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
                 >
-                  Media
-                </a>
-              </li>
-              <li className="m-0 p-0 mt-md-4 mt-3 list-unstyled">
-                <a
-                  href="/"
-                  className="ff_Poppins footer_link text-decoration-none fw-medium  common_clr_black lh_140"
-                >
-                  Contact
+                  Students
                 </a>
               </li>
             </ul>
@@ -133,7 +118,10 @@ const Footer = () => {
             <p className="ff_Poppins fw-medium  lh_132">
               Ask me a question, tell me your story, or share your feedback.
             </p>
-            <form onSubmit={handleSubscribe} className="d-flex flex-column  flex-md-row">
+            <form
+              onSubmit={handleSubscribe}
+              className="d-flex flex-column  flex-md-row"
+            >
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -141,10 +129,9 @@ const Footer = () => {
                 required
               />
               <Button type="submit" className="common_bttn">
-                Subscribe
+                Contact'Us
               </Button>
             </form>
-
           </Col>
         </Row>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import image_one from "../../assets/img/webp/Group-8 (1).webp";
-import image_two from "../../assets/img/webp/image.webp";
-import image_three from "../../assets/img/webp/image-4 (1).webp";
+import image_one from "../../assets/img/webp/Imag-one.jpg";
+import image_two from "../../assets/img/webp/image-two.jpg";
+import image_three from "../../assets/img/webp/image-three.jpg";
 
 const Getyourcopy = () => {
   return (
@@ -22,7 +22,7 @@ const Getyourcopy = () => {
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
             <div className="common_card w-100 h-100">
               <img
-                className="w-100 h-50 card_img_rds "
+                className="image_summidence card_img_rds"
                 src={image_one}
                 alt=""
               />
@@ -41,7 +41,7 @@ const Getyourcopy = () => {
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
             <div className="common_card w-100 h-100">
               <img
-                className="w-100 h-50 card_img_rds "
+                className="image_summidence card_img_rds "
                 src={image_two}
                 alt=""
               />
@@ -60,7 +60,7 @@ const Getyourcopy = () => {
           <Col md={6} lg={4} className="mt-3 mt-lg-0">
             <div className="common_card w-100 h-100">
               <img
-                className="w-100 h-100 card_img_rds "
+                className="image_summidence card_img_rds "
                 src={image_three}
                 alt=""
               />
