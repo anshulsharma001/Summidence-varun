@@ -19,7 +19,7 @@ const Summidence = () => {
       <YourLeadership />
       <BeyondPublic />
       <Current />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contantus />
     </div>
   );

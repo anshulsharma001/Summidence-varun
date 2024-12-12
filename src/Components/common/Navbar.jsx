@@ -27,6 +27,15 @@ const Navbar = () => {
             <li className="mb-0 list-unstyled">
               <a
                 onClick={toggleMenu}
+                href="/"
+                className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
+              >
+                Home
+              </a>
+            </li>
+            <li className="mb-0 list-unstyled">
+              <a
+                onClick={toggleMenu}
                 href="/Business"
                 className=" ff_Poppins fw-medium position-relative text-decoration-none nav_link"
               >

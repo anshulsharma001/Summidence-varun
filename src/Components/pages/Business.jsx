@@ -6,6 +6,7 @@ import Contactus from "./../Summidence/Contantus";
 import ContactBusiness from "../Business/ContactBusiness";
 import OurProcess from "../Business/OurProcess";
 import BusinessCase from "../Business/BusinessCase";
+import Testimonials from "../Summidence/Testimonials";
 
 const Business = () => {
   return (
@@ -15,6 +16,7 @@ const Business = () => {
       <HowItWorks />
       <AboutUsBusiness />
       <OurProcess />
+      <Testimonials/>
       <ContactBusiness />
     </div>
   );
