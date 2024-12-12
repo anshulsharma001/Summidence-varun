@@ -50,6 +50,7 @@ const Navbar = () => {
               >
                 School
               </a>
+              
             </li>
             <li className="mb-0 list-unstyled">
               <a
